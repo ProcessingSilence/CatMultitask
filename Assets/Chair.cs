@@ -11,18 +11,18 @@ public class Chair : MonoBehaviour
 
     public Sprite[] chairSprites;
     
-    public SpriteRenderer _SpriteRenderer;
+    private SpriteRenderer _spriteRenderer;
     // Start is called before the first frame update
     void Awake()
     {
-        _SpriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
         _RlMovement_script = playerObj.GetComponent<RLMovement>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -42,6 +42,6 @@ public class Chair : MonoBehaviour
     void PutPlayerInChair()
     {
         playerObj.SetActive(false);
-        _SpriteRenderer.sprite = chairSprites[1];
+        _spriteRenderer.sprite = chairSprites[1];
     }
 }
