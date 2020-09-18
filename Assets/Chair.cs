@@ -6,36 +6,35 @@ public class Chair : MonoBehaviour
 {
     public SpriteRenderer playerSprite;
     private RLMovement _RlMovement_script;
-    public bool beingClickedOn;
-    public bool playerTouching;
+    
+    private bool beingClickedOn;
+    private bool playerTouching;
+    public bool currentlySitting;
 
     public Sprite[] chairSprites;
 
     private SpriteRenderer _spriteRenderer;
-
-    private CircleCollider2D _circleCollider2D;
-
     // Start is called before the first frame update
     void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _RlMovement_script = playerSprite.GetComponent<RLMovement>();
-        _circleCollider2D = GetComponent<CircleCollider2D>();
     }
 
     void Update()
     {
         if (beingClickedOn && playerTouching)
-        {
-            playerSprite.enabled = false;
-            _spriteRenderer.sprite = chairSprites[1];
-            
-        }
+            PlayerSitOrStand(true, 1);
+    
         else
-        {
-            playerSprite.enabled = true;
-            _spriteRenderer.sprite = chairSprites[0];
-        }
+            PlayerSitOrStand(false, 0);
+    }
+
+    private void PlayerSitOrStand(bool isSitting, int spriteNum)
+    {
+        playerSprite.enabled = !isSitting;
+        _spriteRenderer.sprite = chairSprites[spriteNum];
+        currentlySitting = isSitting;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
