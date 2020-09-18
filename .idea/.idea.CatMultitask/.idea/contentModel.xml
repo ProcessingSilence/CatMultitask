@@ -6,16 +6,16 @@
     <e p="F:\UnityProjects\CatMultitask" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Chair.cs" t="Include" />
-        <e p="ClickAndPlayer.cs" t="Include" />
-        <e p="RotateForever.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CatAI" t="Include">
             <e p="ChewWire.cs" t="Include" />
             <e p="Idle.cs" t="Include" />
             <e p="MoveToWire.cs" t="Include" />
+            <e p="PickUpDetection.cs" t="Include" />
             <e p="WirePositions.cs" t="Include" />
           </e>
+          <e p="Chair.cs" t="Include" />
+          <e p="ClickAndPlayer.cs" t="Include" />
           <e p="GlobalSettings" t="Include">
             <e p="WiresPosition.cs" t="Include" />
           </e>
@@ -23,6 +23,7 @@
             <e p="ClickPos.cs" t="Include" />
             <e p="RLMovement.cs" t="Include" />
           </e>
+          <e p="RotateForever.cs" t="Include" />
           <e p="VGplayer" t="Include">
             <e p="GameControls.cs" t="Include" />
           </e>

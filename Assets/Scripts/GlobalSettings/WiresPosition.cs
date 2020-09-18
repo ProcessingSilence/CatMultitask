@@ -5,7 +5,7 @@ using UnityEngine;
 public class WiresPosition : MonoBehaviour
 {
     public Transform[] currentWirePositions;
-
+    
 
     public static class Wires
     {

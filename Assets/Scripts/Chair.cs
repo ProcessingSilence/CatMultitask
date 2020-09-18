@@ -6,8 +6,6 @@ public class Chair : ClickAndPlayer
 {
     public SpriteRenderer playerSprite;
     private SpriteRenderer _spriteRenderer;
-    
-    public bool currentlySitting;
 
     public Sprite[] chairSprites;
 
@@ -20,15 +18,13 @@ public class Chair : ClickAndPlayer
 
     void Update()
     {
-        currentlySitting = beingClickedOn && playerTouching;
-        PlayerSitOrStand(currentlySitting, currentlySitting ? 1 : 0);
+        PlayerSitOrStand(clickAndPlayer(), clickAndPlayer() ? 1 : 0);
     }
 
     private void PlayerSitOrStand(bool isSitting, int spriteNum)
     {
         playerSprite.enabled = !isSitting;
         _spriteRenderer.sprite = chairSprites[spriteNum];
-        currentlySitting = isSitting;
     }
 }
 
