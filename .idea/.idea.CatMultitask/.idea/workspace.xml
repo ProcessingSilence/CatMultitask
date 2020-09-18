@@ -12,6 +12,33 @@
     <window id="1">
       <content type="file-editors">
         <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/ClickAndPlayer.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="96">
+                    <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+                    <folding>
+                      <marker date="1600442029223" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1600442029223" expanded="true" signature="122:712" ph="{...}" />
+                      <marker date="1600442029223" expanded="true" signature="245:453" ph="{...}" />
+                      <marker date="1600442029223" expanded="true" signature="292:347" ph="{...}" />
+                      <marker date="1600442029223" expanded="true" signature="387:442" ph="{...}" />
+                      <marker date="1600442029223" expanded="true" signature="505:710" ph="{...}" />
+                      <marker date="1600442029223" expanded="true" signature="552:608" ph="{...}" />
+                      <marker date="1600442029223" expanded="true" signature="648:704" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+    <window id="1">
+      <content type="file-editors">
+        <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/RLplayer/RLMovement.cs">
@@ -51,37 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Chair.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            <state relative-caret-position="32">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
-                <marker date="1600392655791" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600392655791" expanded="true" signature="114:1505" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="454:594" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="613:768" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="834:985" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="1038:1246" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="1085:1140" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="1180:1235" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="1298:1503" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="1345:1401" ph="{...}" />
-                <marker date="1600392655791" expanded="true" signature="1441:1497" ph="{...}" />
+                <marker date="1600441975886" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600441975886" expanded="true" signature="115:798" ph="{...}" />
+                <marker date="1600441975886" expanded="true" signature="347:417" ph="{...}" />
+                <marker date="1600441975886" expanded="true" signature="436:579" ph="{...}" />
+                <marker date="1600441975886" expanded="true" signature="645:796" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/RotateForever.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="192">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <marker date="1600399702626" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600399702626" expanded="true" signature="122:296" ph="{...}" />
-                <marker date="1600399702626" expanded="true" signature="194:215" ph="{...}" />
-                <marker date="1600399702626" expanded="true" signature="273:294" ph="{...}" />
+                <marker date="1600399807452" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600399807452" expanded="true" signature="122:333" ph="{...}" />
+                <marker date="1600399807452" expanded="true" signature="212:331" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -108,9 +129,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>clickPos</find>
+      <find>playerObj</find>
     </findStrings>
     <replaceStrings>
       <replace>transform</replace>
+      <replace>playerSprite</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -122,6 +145,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RLplayer/RLMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/WiresPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAndPlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,12 +158,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GlobalSettings/WiresPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RLplayer/RLMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RLplayer/ClickPos.cs" />
+        <option value="$PROJECT_DIR$/Assets/RotateForever.cs" />
+        <option value="$PROJECT_DIR$/Assets/Chair1.cs" />
         <option value="$PROJECT_DIR$/Assets/Chair.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAndPlayer.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-7" />
+    <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -196,12 +223,12 @@
       <workItem from="1600221804328" duration="158000" />
       <workItem from="1600222121120" duration="11597000" />
       <workItem from="1600387779720" duration="2377000" />
-      <workItem from="1600390171953" duration="3151000" />
+      <workItem from="1600390171953" duration="4862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17283000" />
+    <option name="totallyTimeSpent" value="18994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -213,7 +240,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2538524" />
@@ -327,38 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Chair.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding>
-            <marker date="1600392655791" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600392655791" expanded="true" signature="114:1505" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="454:594" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="613:768" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="834:985" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="1038:1246" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="1085:1140" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="1180:1235" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="1298:1503" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="1345:1401" ph="{...}" />
-            <marker date="1600392655791" expanded="true" signature="1441:1497" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RotateForever.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1600399702626" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600399702626" expanded="true" signature="122:296" ph="{...}" />
-            <marker date="1600399702626" expanded="true" signature="194:215" ph="{...}" />
-            <marker date="1600399702626" expanded="true" signature="273:294" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RLplayer/RLMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -368,6 +363,56 @@
             <marker date="1600384078221" expanded="true" signature="118:398" ph="{...}" />
             <marker date="1600384078221" expanded="true" signature="194:396" ph="{...}" />
             <marker date="1600384078221" expanded="true" signature="253:390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RotateForever.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1600399807452" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600399807452" expanded="true" signature="122:333" ph="{...}" />
+            <marker date="1600399807452" expanded="true" signature="212:331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Chair1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Chair.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1600441975886" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600441975886" expanded="true" signature="115:798" ph="{...}" />
+            <marker date="1600441975886" expanded="true" signature="347:417" ph="{...}" />
+            <marker date="1600441975886" expanded="true" signature="436:579" ph="{...}" />
+            <marker date="1600441975886" expanded="true" signature="645:796" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ClickAndPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <marker date="1600442029223" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600442029223" expanded="true" signature="122:712" ph="{...}" />
+            <marker date="1600442029223" expanded="true" signature="245:453" ph="{...}" />
+            <marker date="1600442029223" expanded="true" signature="292:347" ph="{...}" />
+            <marker date="1600442029223" expanded="true" signature="387:442" ph="{...}" />
+            <marker date="1600442029223" expanded="true" signature="505:710" ph="{...}" />
+            <marker date="1600442029223" expanded="true" signature="552:608" ph="{...}" />
+            <marker date="1600442029223" expanded="true" signature="648:704" ph="{...}" />
           </folding>
         </state>
       </provider>
