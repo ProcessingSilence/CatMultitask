@@ -50,6 +50,18 @@ TextureImporter:
   - first:
       213: -8737814497086157452
     second: kittyCat-Sheet_15
+  - first:
+      213: 4479303648082594286
+    second: kittyCat-Sheet_0
+  - first:
+      213: 4925934064863808411
+    second: kittyCat-Sheet_1
+  - first:
+      213: -3823808469821555673
+    second: kittyCat-Sheet_2
+  - first:
+      213: -6261664644966993187
+    second: kittyCat-Sheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,8 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b4373ed2cd8906a0800000000000000
-      internalID: -6482494320531786575
+      spriteID: ee903118feea92e30800000000000000
+      internalID: 4479303648082594286
       vertices: []
       indices: 
       edges: []
@@ -173,7 +185,7 @@ TextureImporter:
       name: kittyCat-Sheet_1
       rect:
         serializedVersion: 2
-        x: 11
+        x: 10
         y: 0
         width: 10
         height: 10
@@ -184,8 +196,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bae2640a4e9bcbc20800000000000000
-      internalID: 3223655824883068587
+      spriteID: b9b043beeee6c5440800000000000000
+      internalID: 4925934064863808411
       vertices: []
       indices: 
       edges: []
@@ -194,7 +206,7 @@ TextureImporter:
       name: kittyCat-Sheet_2
       rect:
         serializedVersion: 2
-        x: 22
+        x: 20
         y: 0
         width: 10
         height: 10
@@ -205,8 +217,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47f1781dc2b6ccee0800000000000000
-      internalID: -1239497957195702412
+      spriteID: 72cf723c47a1feac0800000000000000
+      internalID: -3823808469821555673
       vertices: []
       indices: 
       edges: []
@@ -215,7 +227,7 @@ TextureImporter:
       name: kittyCat-Sheet_3
       rect:
         serializedVersion: 2
-        x: 33
+        x: 30
         y: 0
         width: 10
         height: 10
@@ -226,8 +238,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceec0a5e7b3940760800000000000000
-      internalID: 7423220503854239468
+      spriteID: dd2be1e5e291a19a0800000000000000
+      internalID: -6261664644966993187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kittyCat-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e229636ddda5de650800000000000000
+      internalID: 6263762565570400814
       vertices: []
       indices: 
       edges: []
