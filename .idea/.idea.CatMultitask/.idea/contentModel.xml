@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Chair.cs" t="Include" />
+        <e p="RotateForever.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CatAI" t="Include">
             <e p="ChewWire.cs" t="Include" />
