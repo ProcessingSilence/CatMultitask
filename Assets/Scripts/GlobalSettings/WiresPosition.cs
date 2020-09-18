@@ -14,12 +14,6 @@ public class WiresPosition : MonoBehaviour
 
     void Awake()
     {
-        Wires.WireTransforms = currentWirePositions;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Wires.WireTransforms = currentWirePositions;        
     }
 }

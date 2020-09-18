@@ -18,9 +18,9 @@
           <e p="GlobalSettings" t="Include">
             <e p="WiresPosition.cs" t="Include" />
           </e>
+          <e p="Movement.cs" t="Include" />
           <e p="RLplayer" t="Include">
             <e p="ClickPos.cs" t="Include" />
-            <e p="RLMovement.cs" t="Include" />
           </e>
           <e p="RotateForever.cs" t="Include" />
           <e p="VGplayer" t="Include">
