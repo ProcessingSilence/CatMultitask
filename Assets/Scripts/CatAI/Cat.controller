@@ -39,9 +39,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eb181c0194b8da44a48d698725db2e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  catPos: {fileID: 0}
-  randomXRange: {x: 0, y: 0}
-  randomYRange: {x: 0, y: 0}
+  randomXRange: {x: -2, y: 2}
+  randomYRange: {x: 2, y: 3}
+  _Movement_script: {fileID: 0}
 --- !u!1101 &-3449010727897826373
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

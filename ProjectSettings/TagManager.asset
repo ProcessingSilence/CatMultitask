@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Clicker
   - Cat
+  - Wire
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - 
   - Clicker
   - PlayerAndClick
-  - 
-  - 
+  - CatIdle
+  - Wire
   - 
   - 
   - 
