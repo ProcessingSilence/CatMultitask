@@ -9,6 +9,7 @@ TagManager:
   - Wire
   - VGplayer
   - Sitting
+  - ChewingWire
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - 
   - Clicker
   - PlayerAndClick
-  - CatIdle
+  - Cat
   - Wire
   - 
   - 

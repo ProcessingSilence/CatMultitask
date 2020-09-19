@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 47045055}
   - component: {fileID: 47045054}
   m_Layer: 11
-  m_Name: Particles (4)
+  m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4945,8 +4945,10 @@ GameObject:
   m_Component:
   - component: {fileID: 135369362}
   - component: {fileID: 135369363}
+  - component: {fileID: 135369364}
+  - component: {fileID: 135369365}
   m_Layer: 11
-  m_Name: MoveTo4
+  m_Name: Hitbox/Script
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4982,6 +4984,44 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &135369364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135369361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a33b484537dee49a8c56dfcab7070f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeIteration: 1
+  health: 10
+  sparks: {fileID: 0}
+  coroutineAllowed: 1
+  catDistance: 0
+--- !u!50 &135369365
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135369361}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &181951789
 GameObject:
   m_ObjectHideFlags: 0
@@ -4993,7 +5033,7 @@ GameObject:
   - component: {fileID: 181951793}
   - component: {fileID: 181951791}
   m_Layer: 11
-  m_Name: Wire1
+  m_Name: Wire2
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5064,7 +5104,7 @@ Transform:
   - {fileID: 326501524}
   - {fileID: 1311473916}
   m_Father: {fileID: 1047474139}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -0.88, y: -12.477, z: -324.963}
 --- !u!1 &215689723
 GameObject:
@@ -5171,8 +5211,10 @@ GameObject:
   m_Component:
   - component: {fileID: 216826770}
   - component: {fileID: 216826771}
+  - component: {fileID: 216826772}
+  - component: {fileID: 216826773}
   m_Layer: 11
-  m_Name: MoveTo5
+  m_Name: Hitbox/Script
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5208,6 +5250,44 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &216826772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216826769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a33b484537dee49a8c56dfcab7070f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeIteration: 1
+  health: 10
+  sparks: {fileID: 0}
+  coroutineAllowed: 1
+  catDistance: 0
+--- !u!50 &216826773
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216826769}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &232160535
 GameObject:
   m_ObjectHideFlags: 0
@@ -5220,7 +5300,7 @@ GameObject:
   - component: {fileID: 232160538}
   - component: {fileID: 232160537}
   m_Layer: 11
-  m_Name: Particles (3)
+  m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10203,7 +10283,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!1 &326501523
 GameObject:
@@ -15133,7 +15213,7 @@ GameObject:
   - component: {fileID: 485636587}
   - component: {fileID: 485636586}
   m_Layer: 11
-  m_Name: Particles (2)
+  m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20049,7 +20129,7 @@ GameObject:
   - component: {fileID: 514540306}
   - component: {fileID: 514540305}
   m_Layer: 11
-  m_Name: Particles (1)
+  m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24964,7 +25044,7 @@ GameObject:
   - component: {fileID: 634277500}
   - component: {fileID: 634277498}
   m_Layer: 11
-  m_Name: Wire2
+  m_Name: Wire1
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25035,7 +25115,7 @@ Transform:
   - {fileID: 514540304}
   - {fileID: 1643142967}
   m_Father: {fileID: 1047474139}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &647419607
 GameObject:
@@ -25498,7 +25578,7 @@ GameObject:
   - component: {fileID: 839533176}
   - component: {fileID: 839533174}
   m_Layer: 11
-  m_Name: Wire5
+  m_Name: Wire3
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25562,14 +25642,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839533172}
-  m_LocalRotation: {x: -0, y: -0, z: -0.638181, w: 0.76988643}
-  m_LocalPosition: {x: -0.37, y: -4.73, z: 1.16518}
+  m_LocalRotation: {x: -0.0000000055879354, y: -0.000000011175871, z: -0.6381809, w: 0.7698865}
+  m_LocalPosition: {x: -0.3699994, y: -4.73, z: 1.16518}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 47045053}
   - {fileID: 216826770}
   m_Father: {fileID: 1047474139}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -79.313}
 --- !u!1 &879268266
 GameObject:
@@ -25981,7 +26061,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1047474139}
-  - component: {fileID: 1047474140}
   m_Layer: 0
   m_Name: Wires
   m_TagString: Untagged
@@ -26000,32 +26079,14 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 181951793}
   - {fileID: 634277500}
+  - {fileID: 181951793}
+  - {fileID: 839533176}
   - {fileID: 2089849342}
   - {fileID: 1102680850}
-  - {fileID: 839533176}
   m_Father: {fileID: 2112678617}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1047474140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047474138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaefb8b4c0babab44ad72b4c5b3c95ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentWirePositions:
-  - {fileID: 181951793}
-  - {fileID: 634277500}
-  - {fileID: 2089849342}
-  - {fileID: 1102680850}
-  - {fileID: 839533176}
 --- !u!1 &1102680846
 GameObject:
   m_ObjectHideFlags: 0
@@ -26037,7 +26098,7 @@ GameObject:
   - component: {fileID: 1102680850}
   - component: {fileID: 1102680848}
   m_Layer: 11
-  m_Name: Wire4
+  m_Name: Wire5
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26108,7 +26169,7 @@ Transform:
   - {fileID: 232160536}
   - {fileID: 135369362}
   m_Father: {fileID: 1047474139}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -72.566}
 --- !u!1001 &1116809689
 PrefabInstance:
@@ -26459,8 +26520,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1311473916}
   - component: {fileID: 1311473917}
+  - component: {fileID: 1311473918}
+  - component: {fileID: 1311473919}
   m_Layer: 11
-  m_Name: MoveTo1
+  m_Name: Hitbox/Script
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26496,6 +26559,44 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1311473918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311473915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a33b484537dee49a8c56dfcab7070f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeIteration: 1
+  health: 10
+  sparks: {fileID: 0}
+  coroutineAllowed: 1
+  catDistance: 0
+--- !u!50 &1311473919
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311473915}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &1312653290
 GameObject:
   m_ObjectHideFlags: 0
@@ -26761,8 +26862,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1476395447}
   - component: {fileID: 1476395448}
+  - component: {fileID: 1476395449}
+  - component: {fileID: 1476395450}
   m_Layer: 11
-  m_Name: MoveTo3
+  m_Name: Hitbox/Script
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26798,6 +26901,44 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1476395449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476395446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a33b484537dee49a8c56dfcab7070f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeIteration: 1
+  health: 10
+  sparks: {fileID: 0}
+  coroutineAllowed: 1
+  catDistance: 0
+--- !u!50 &1476395450
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476395446}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &1630312524
 GameObject:
   m_ObjectHideFlags: 0
@@ -26912,8 +27053,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1643142967}
   - component: {fileID: 1643142968}
+  - component: {fileID: 1643142969}
+  - component: {fileID: 1643142970}
   m_Layer: 11
-  m_Name: MoveTo2
+  m_Name: Hitbox/Script
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26949,6 +27092,44 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1643142969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643142966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a33b484537dee49a8c56dfcab7070f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeIteration: 1
+  health: 10
+  sparks: {fileID: 0}
+  coroutineAllowed: 1
+  catDistance: 0
+--- !u!50 &1643142970
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643142966}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &1702897467
 GameObject:
   m_ObjectHideFlags: 0
@@ -27835,7 +28016,7 @@ GameObject:
   - component: {fileID: 2089849342}
   - component: {fileID: 2089849340}
   m_Layer: 11
-  m_Name: Wire3
+  m_Name: Wire4
   m_TagString: Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27906,7 +28087,7 @@ Transform:
   - {fileID: 485636585}
   - {fileID: 1476395447}
   m_Father: {fileID: 1047474139}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -16.655}
 --- !u!1 &2112678616
 GameObject:

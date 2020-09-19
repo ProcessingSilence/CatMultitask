@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CatAI" t="Include">
+            <e p="ChewingWire.cs" t="Include" />
             <e p="DetectPickup.cs" t="Include" />
             <e p="GetDropped.cs" t="Include" />
             <e p="Idle.cs" t="Include" />

@@ -5,16 +5,16 @@ using UnityEngine;
 public class DetectPickup : StateMachineBehaviour
 {
     public float distance;
-    public Transform player;
+    private Transform _player;
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
-        player = GlobalObjs.ImportantObjs.player.transform;
+        _player = GlobalObjs.ImportantObjs.player.transform;
     }
 
-    // Detect pickup upon distance of player & cat less than #, and player not sitting.
+    // Detect pickup upon distance of _player & cat less than #, and _player not sitting.
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
-        distance = Vector2.Distance(animator.transform.position, player.position);
+        distance = Vector2.Distance(animator.transform.position, _player.position);
         
         if (distance < .5f && Chair.IsSitting.sitCheck == false)
         {

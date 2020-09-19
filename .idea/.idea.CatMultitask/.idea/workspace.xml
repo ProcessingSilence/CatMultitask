@@ -10,17 +10,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/PickedUp.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="35" column="115" selection-start-line="35" selection-start-column="115" selection-end-line="35" selection-end-column="115" />
+            <state relative-caret-position="256">
+              <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <marker date="1600549622559" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600549622559" expanded="true" signature="125:1661" ph="{...}" />
-                <marker date="1600549622559" expanded="true" signature="500:811" ph="{...}" />
-                <marker date="1600549622559" expanded="true" signature="923:1659" ph="{...}" />
-                <marker date="1600549622559" expanded="true" signature="1479:1596" ph="{...}" />
+                <marker date="1600549659408" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600549659408" expanded="true" signature="125:1660" ph="{...}" />
+                <marker date="1600549659408" expanded="true" signature="500:811" ph="{...}" />
+                <marker date="1600549659408" expanded="true" signature="923:1658" ph="{...}" />
+                <marker date="1600549659408" expanded="true" signature="1479:1596" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <marker date="1600553254257" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600553254257" expanded="true" signature="128:498" ph="{...}" />
+                <marker date="1600553254257" expanded="true" signature="280:341" ph="{...}" />
+                <marker date="1600553254257" expanded="true" signature="443:496" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -53,13 +68,32 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <marker date="1600546872185" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600546872185" expanded="true" signature="129:920" ph="{...}" />
-                <marker date="1600546872185" expanded="true" signature="297:369" ph="{...}" />
-                <marker date="1600546872185" expanded="true" signature="569:918" ph="{...}" />
-                <marker date="1600546872185" expanded="true" signature="732:905" ph="{...}" />
+                <marker date="1600549985065" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600549985065" expanded="true" signature="129:926" ph="{...}" />
+                <marker date="1600549985065" expanded="true" signature="299:372" ph="{...}" />
+                <marker date="1600549985065" expanded="true" signature="574:924" ph="{...}" />
+                <marker date="1600549985065" expanded="true" signature="738:911" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="60" column="63" lean-forward="true" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
+              <folding>
+                <marker date="1600553730474" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600553730474" expanded="true" signature="119:1636" ph="{...}" />
+                <marker date="1600553730474" expanded="true" signature="476:711" ph="{...}" />
+                <marker date="1600553730474" expanded="true" signature="769:834" ph="{...}" />
+                <marker date="1600553730474" expanded="true" signature="947:1051" ph="{...}" />
+                <marker date="1600553730474" expanded="true" signature="1091:1424" ph="{...}" />
+                <marker date="1600553730474" expanded="true" signature="1309:1418" ph="{...}" />
+                <marker date="1600553730474" expanded="true" signature="1467:1627" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -97,14 +131,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/GetDropped.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
               <folding>
-                <marker date="1600549622532" expanded="true" signature="6:78" ph="..." />
-                <marker date="1600549622532" expanded="true" signature="127:1061" ph="{...}" />
-                <marker date="1600549622532" expanded="true" signature="351:617" ph="{...}" />
-                <marker date="1600549622532" expanded="true" signature="768:1059" ph="{...}" />
-                <marker date="1600549622532" expanded="true" signature="825:1053" ph="{...}" />
+                <marker date="1600549659385" expanded="true" signature="6:78" ph="..." />
+                <marker date="1600549659385" expanded="true" signature="127:950" ph="{...}" />
+                <marker date="1600549659385" expanded="true" signature="318:506" ph="{...}" />
+                <marker date="1600549659385" expanded="true" signature="657:948" ph="{...}" />
+                <marker date="1600549659385" expanded="true" signature="714:942" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -135,6 +169,7 @@
       <find>_movement_Script</find>
       <find>_Movement_script</find>
       <find>chair</find>
+      <find>circle</find>
       <find>player</find>
     </findStrings>
     <replaceStrings>
@@ -145,22 +180,25 @@
       <replace>_movement_script</replace>
       <replace>_chair</replace>
       <replace>RLplayer</replace>
+      <replace>_player</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickAndPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/GetDropped.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RLplayer/ClickPos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/MoveToWire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipSprite.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chair.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/WirePositions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickAndPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/PickedUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -191,13 +229,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/MoveToWire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RLplayer/ClickPos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/GetDropped.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/PickedUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="474" />
     <option name="y" value="162" />
     <option name="width" value="1294" />
@@ -205,10 +245,20 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -258,12 +308,12 @@
       <workItem from="1600222121120" duration="11597000" />
       <workItem from="1600387779720" duration="2377000" />
       <workItem from="1600390171953" duration="35651000" />
-      <workItem from="1600547023412" duration="2596000" />
+      <workItem from="1600547023412" duration="6699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52379000" />
+    <option name="totallyTimeSpent" value="56482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,40 +325,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="474" y="162" width="1294" height="1166" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2538524" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Unity" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2538524" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2535771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -336,7 +356,7 @@
       <window_info anchor="right" id="Errors In Solution" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Unit Tests Coverage" order="6" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -446,6 +466,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1600536407513" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600536407513" expanded="true" signature="116:486" ph="{...}" />
+            <marker date="1600536407513" expanded="true" signature="196:257" ph="{...}" />
+            <marker date="1600536407513" expanded="true" signature="280:484" ph="{...}" />
+            <marker date="1600536407513" expanded="true" signature="340:478" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/PickedUp.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <marker date="1600549659408" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600549659408" expanded="true" signature="125:1660" ph="{...}" />
+            <marker date="1600549659408" expanded="true" signature="500:811" ph="{...}" />
+            <marker date="1600549659408" expanded="true" signature="923:1658" ph="{...}" />
+            <marker date="1600549659408" expanded="true" signature="1479:1596" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -463,20 +510,6 @@
             <marker date="1600530759427" expanded="true" signature="1902:2024" ph="{...}" />
             <marker date="1600530759427" expanded="true" signature="2064:2395" ph="{...}" />
             <marker date="1600530759427" expanded="true" signature="2441:2567" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <marker date="1600546872185" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600546872185" expanded="true" signature="129:920" ph="{...}" />
-            <marker date="1600546872185" expanded="true" signature="297:369" ph="{...}" />
-            <marker date="1600546872185" expanded="true" signature="569:918" ph="{...}" />
-            <marker date="1600546872185" expanded="true" signature="732:905" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -506,43 +539,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1600536407513" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600536407513" expanded="true" signature="116:486" ph="{...}" />
-            <marker date="1600536407513" expanded="true" signature="196:257" ph="{...}" />
-            <marker date="1600536407513" expanded="true" signature="280:484" ph="{...}" />
-            <marker date="1600536407513" expanded="true" signature="340:478" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/GetDropped.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
           <folding>
-            <marker date="1600549622532" expanded="true" signature="6:78" ph="..." />
-            <marker date="1600549622532" expanded="true" signature="127:1061" ph="{...}" />
-            <marker date="1600549622532" expanded="true" signature="351:617" ph="{...}" />
-            <marker date="1600549622532" expanded="true" signature="768:1059" ph="{...}" />
-            <marker date="1600549622532" expanded="true" signature="825:1053" ph="{...}" />
+            <marker date="1600549659385" expanded="true" signature="6:78" ph="..." />
+            <marker date="1600549659385" expanded="true" signature="127:950" ph="{...}" />
+            <marker date="1600549659385" expanded="true" signature="318:506" ph="{...}" />
+            <marker date="1600549659385" expanded="true" signature="657:948" ph="{...}" />
+            <marker date="1600549659385" expanded="true" signature="714:942" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/PickedUp.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="35" column="115" selection-start-line="35" selection-start-column="115" selection-end-line="35" selection-end-column="115" />
+        <state relative-caret-position="240">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <marker date="1600549622559" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600549622559" expanded="true" signature="125:1661" ph="{...}" />
-            <marker date="1600549622559" expanded="true" signature="500:811" ph="{...}" />
-            <marker date="1600549622559" expanded="true" signature="923:1659" ph="{...}" />
-            <marker date="1600549622559" expanded="true" signature="1479:1596" ph="{...}" />
+            <marker date="1600553254257" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600553254257" expanded="true" signature="128:498" ph="{...}" />
+            <marker date="1600553254257" expanded="true" signature="280:341" ph="{...}" />
+            <marker date="1600553254257" expanded="true" signature="443:496" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1600549985065" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600549985065" expanded="true" signature="129:926" ph="{...}" />
+            <marker date="1600549985065" expanded="true" signature="299:372" ph="{...}" />
+            <marker date="1600549985065" expanded="true" signature="574:924" ph="{...}" />
+            <marker date="1600549985065" expanded="true" signature="738:911" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="60" column="63" lean-forward="true" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
+          <folding>
+            <marker date="1600553730474" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600553730474" expanded="true" signature="119:1636" ph="{...}" />
+            <marker date="1600553730474" expanded="true" signature="476:711" ph="{...}" />
+            <marker date="1600553730474" expanded="true" signature="769:834" ph="{...}" />
+            <marker date="1600553730474" expanded="true" signature="947:1051" ph="{...}" />
+            <marker date="1600553730474" expanded="true" signature="1091:1424" ph="{...}" />
+            <marker date="1600553730474" expanded="true" signature="1309:1418" ph="{...}" />
+            <marker date="1600553730474" expanded="true" signature="1467:1627" ph="{...}" />
           </folding>
         </state>
       </provider>
