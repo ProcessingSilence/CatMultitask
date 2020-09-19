@@ -2,17 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveToWire : MonoBehaviour
+public class MoveToWire : StateMachineBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Movement _Movement_script;
+    public int randomWire;
+    public Vector3 wirePos;
+    public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
-        
+        randomWire = Random.Range(0, 5);
+        _Movement_script = animator.gameObject.GetComponent<Movement>();
+        wirePos = WiresPosition.Wires.WireTransforms[randomWire].position;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
-        
+        _Movement_script.moveToPos.position = wirePos;
+        if (animator.transform.position == wirePos)
+        {
+            animator.SetBool("chewingWire",  true);
+            animator.SetBool("movingToWire", false);
+        }
+    }
+
+    public override void OnStateExit(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
+    {
+
     }
 }

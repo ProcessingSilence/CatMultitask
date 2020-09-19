@@ -22,8 +22,8 @@ public class Idle : StateMachineBehaviour
         if (_YieldThenNewPos_script.moveToWire)
         {
             _YieldThenNewPos_script.moveToWire = false;
-            animator.SetBool("idle", false);
             animator.SetBool("movingToWire", true);
+            animator.SetBool("idle", false);
             Debug.Log("Moving to wire");
         }
     }
