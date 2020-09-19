@@ -23,9 +23,4 @@ public class MoveToWire : StateMachineBehaviour
             animator.SetBool("movingToWire", false);
         }
     }
-
-    public override void OnStateExit(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
-    {
-
-    }
 }

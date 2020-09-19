@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class GlobalObjs : MonoBehaviour
 {
-    public GameObject player, cat, chair, vgPlayer, boss;
+    public GameObject player, cat, catPos, chair, vgPlayer, boss;
     public GameObject[] wiresPos;
     
     public static class ImportantObjs
     {
-        public static GameObject player, cat, chair, vgPlayer, boss;
+        public static GameObject player, cat, catPos, chair, vgPlayer, boss;
         public static GameObject[] wires;
     }
 
@@ -21,6 +21,9 @@ public class GlobalObjs : MonoBehaviour
         
         ImportantObjs.cat = cat;
         Debug.Log("cat: " + cat);
+        
+        ImportantObjs.catPos = catPos;
+        Debug.Log("catPos: " + catPos);
         
         ImportantObjs.chair = chair;
         Debug.Log("chair: " + chair);        

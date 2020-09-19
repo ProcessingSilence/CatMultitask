@@ -15,7 +15,7 @@ public class ClickPos : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("click");
+            //Debug.Log("click");
             clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             
             // Prevent click position from going above the floor.

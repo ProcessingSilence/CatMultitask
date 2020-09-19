@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="CatAI" t="Include">
             <e p="DetectPickup.cs" t="Include" />
+            <e p="GetDropped.cs" t="Include" />
             <e p="Idle.cs" t="Include" />
             <e p="MoveToWire.cs" t="Include" />
             <e p="PickedUp.cs" t="Include" />

@@ -16,10 +16,11 @@ public class DetectPickup : StateMachineBehaviour
     {
         distance = Vector2.Distance(animator.transform.position, player.position);
         
-        if (distance < 1f && Chair.IsSitting.sitCheck == false)
+        if (distance < .5f && Chair.IsSitting.sitCheck == false)
         {
             animator.SetBool("pickedUp", true);
             animator.SetBool("chewingWire", false);
+            animator.SetBool("movingToWire", false);
         }       
     }
 }
