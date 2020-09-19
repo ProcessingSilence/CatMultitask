@@ -8,9 +8,10 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CatAI" t="Include">
-            <e p="ChewWire.cs" t="Include" />
+            <e p="DetectPickup.cs" t="Include" />
             <e p="Idle.cs" t="Include" />
             <e p="MoveToWire.cs" t="Include" />
+            <e p="PickedUp.cs" t="Include" />
             <e p="WirePositions.cs" t="Include" />
           </e>
           <e p="Chair.cs" t="Include" />
@@ -26,6 +27,10 @@
           <e p="RotateForever.cs" t="Include" />
           <e p="VGplayer" t="Include">
             <e p="GameControls.cs" t="Include" />
+          </e>
+          <e p="Wires" t="Include">
+            <e p="DetectCat.cs" t="Include" />
+            <e p="WireHealth.cs" t="Include" />
           </e>
         </e>
       </e>

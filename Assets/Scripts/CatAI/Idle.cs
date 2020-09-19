@@ -7,7 +7,7 @@ public class Idle : StateMachineBehaviour
     public Vector2 randomXRange;
     public Vector2 randomYRange;
     private YieldThenNewPos _YieldThenNewPos_script;
-    public Movement _Movement_script;
+    public Movement _movement_script;
 
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
@@ -18,7 +18,7 @@ public class Idle : StateMachineBehaviour
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         // Set movement position of transform object on Movement.cs
-        _Movement_script.moveToPos.position = _YieldThenNewPos_script.randomIdleRange;
+        _movement_script.moveToPos.position = _YieldThenNewPos_script.randomIdleRange;
         if (_YieldThenNewPos_script.moveToWire)
         {
             _YieldThenNewPos_script.moveToWire = false;
@@ -35,7 +35,12 @@ public class Idle : StateMachineBehaviour
 
     public void SetVariables(Animator animator)
     {
-        _Movement_script = animator.gameObject.GetComponent<Movement>();
+        _movement_script = animator.gameObject.GetComponent<Movement>();
+        if (_movement_script.enabled == false)
+        {
+            _movement_script.enabled = true;
+        }
+        
         _YieldThenNewPos_script = animator.gameObject.AddComponent<YieldThenNewPos>();
         _YieldThenNewPos_script.randomXRange = randomXRange;
         _YieldThenNewPos_script.randomYRange = randomYRange;
