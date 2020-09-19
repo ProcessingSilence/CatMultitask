@@ -4947,7 +4947,7 @@ GameObject:
   - component: {fileID: 93000303}
   - component: {fileID: 93000302}
   m_Layer: 0
-  m_Name: TVturnoff
+  m_Name: TvKillEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5201,6 +5201,54 @@ Transform:
   m_Father: {fileID: 1047474139}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -0.88, y: -12.477, z: -324.963}
+--- !u!1 &214871224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214871226}
+  - component: {fileID: 214871225}
+  m_Layer: 0
+  m_Name: GameOverCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &214871225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214871224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04117d9404bda3a45891275481796bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catAnim: {fileID: 300377990}
+  gameOver: 0
+  dieInGame: 0
+  wireKilled: 0
+  tvKillEffect: {fileID: 93000301}
+--- !u!4 &214871226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214871224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.38767263, y: 6.126611, z: -6.8642325}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &215689723
 GameObject:
   m_ObjectHideFlags: 0

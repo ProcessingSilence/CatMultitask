@@ -6,8 +6,11 @@ public class Idle : StateMachineBehaviour
 {
     public Vector2 randomXRange;
     public Vector2 randomYRange;
+    
     private YieldThenNewPos _YieldThenNewPos_script;
     public Movement _movement_script;
+    
+    public bool infiniteIdle;
 
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
@@ -22,6 +25,7 @@ public class Idle : StateMachineBehaviour
         if (_YieldThenNewPos_script.moveToWire)
         {
             _YieldThenNewPos_script.moveToWire = false;
+            _YieldThenNewPos_script.infiniteIdle = infiniteIdle;
             animator.SetBool("movingToWire", true);
             animator.SetBool("idle", false);
             Debug.Log("Moving to wire");
@@ -53,10 +57,12 @@ public class Idle : StateMachineBehaviour
         public Vector2 randomIdleRange;
 
         public bool moveToWire;
+        public bool infiniteIdle;
         public void Fire()
         {
             StartCoroutine(WaitBeforeMoving());
-            StartCoroutine(WaitBeforeMovingToWire());
+            if (infiniteIdle == false)
+                StartCoroutine(WaitBeforeMovingToWire());
         }
 
         IEnumerator WaitBeforeMoving()
@@ -74,7 +80,6 @@ public class Idle : StateMachineBehaviour
             yield return new WaitForSecondsRealtime(Random.Range(1f,10f));
             moveToWire = true;
         }
-
     }
 }
 

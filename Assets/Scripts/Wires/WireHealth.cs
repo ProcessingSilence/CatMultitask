@@ -35,6 +35,7 @@ public class WireHealth : MonoBehaviour
     {
         SparkEmission();
         DecideHealthLoss();
+        DecideGameOver();
     }
        
     // Increase rate of spark emission based on how much health is left.
@@ -63,7 +64,14 @@ public class WireHealth : MonoBehaviour
             health -= 1;
         coroutineAllowed = true;
     }
-    
+
+    public void DecideGameOver()
+    {
+        if (health <= 0)
+        {
+            GameOverCheck.GameOverVars.wireKilled = true;
+        }
+    }
 
 
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TVturnoff : MonoBehaviour
+public class TvKillEffect : MonoBehaviour
 {
     private SpriteRenderer _spriteRenderer;
     // Start is called before the first frame update
@@ -19,5 +19,6 @@ public class TVturnoff : MonoBehaviour
         _spriteRenderer.color = new Color(50,50,50);
         yield return new WaitForSecondsRealtime(0.02f);
         _spriteRenderer.color = new Color(0,0,0);
+        Destroy(gameObject.GetComponent<TvKillEffect>());
     }
 }
