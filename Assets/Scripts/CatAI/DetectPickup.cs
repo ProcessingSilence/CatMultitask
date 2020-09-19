@@ -8,7 +8,7 @@ public class DetectPickup : StateMachineBehaviour
     public Transform player;
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
-        player = GameObject.FindWithTag("Player").transform;
+        player = GlobalObjs.ImportantObjs.player.transform;
     }
 
     // Detect pickup upon distance of player & cat less than #, and player not sitting.

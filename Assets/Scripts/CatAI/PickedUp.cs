@@ -10,9 +10,9 @@ public class PickedUp : StateMachineBehaviour
     {
         _movement_script = animator.gameObject.GetComponent<Movement>();
         _movement_script.enabled = false;
-        
 
-        player = GameObject.FindWithTag("Player").transform;
+
+        player = GlobalObjs.ImportantObjs.player.transform;
     }
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)

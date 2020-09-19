@@ -18,7 +18,7 @@
           <e p="ClickAndPlayer.cs" t="Include" />
           <e p="FlipSprite.cs" t="Include" />
           <e p="GlobalSettings" t="Include">
-            <e p="WiresPosition.cs" t="Include" />
+            <e p="GlobalObjs.cs" t="Include" />
           </e>
           <e p="Movement.cs" t="Include" />
           <e p="RLplayer" t="Include">

@@ -11,7 +11,7 @@ public class MoveToWire : StateMachineBehaviour
     {
         randomWire = Random.Range(0, 5);
         _Movement_script = animator.gameObject.GetComponent<Movement>();
-        wirePos = WiresPosition.Wires.WireTransforms[randomWire].position;
+        wirePos = GlobalObjs.ImportantObjs.wires[randomWire].transform.position;
     }
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)

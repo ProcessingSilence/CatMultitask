@@ -7,7 +7,7 @@ public class ClickPos : MonoBehaviour
     // Set to player position to prevent player from moving without mouse input.
     void Awake()
     {
-        transform.position = GameObject.FindWithTag("Player").transform.position;
+        transform.position = GlobalObjs.ImportantObjs.player.transform.position;
     }
 
     private Vector3 clickPos;

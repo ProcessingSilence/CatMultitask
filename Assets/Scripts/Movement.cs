@@ -5,7 +5,12 @@ public class Movement : MonoBehaviour
 {
     public Transform moveToPos;
     public float speed;
-
+    
+    void Awake()
+    {
+        moveToPos.position = transform.position;
+    }
+    
     void Update()
     {
         if (transform.position != moveToPos.position)

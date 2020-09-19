@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Chair : ClickAndPlayer
 {
-    public SpriteRenderer playerSprite;
-    private GameObject playerObj;
+    private SpriteRenderer playerSprite;
     private SpriteRenderer _spriteRenderer;
 
     public Sprite[] chairSprites;
@@ -19,7 +18,7 @@ public class Chair : ClickAndPlayer
     void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        playerObj = playerSprite.gameObject;
+        playerSprite = GlobalObjs.ImportantObjs.player.GetComponent<SpriteRenderer>();
     }
 
     void Update()
