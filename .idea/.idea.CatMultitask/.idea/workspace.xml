@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs" line="38" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e41eadc2-1053-4f94-bf25-690f06c9b78c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="928">
@@ -94,6 +97,21 @@
                 <marker date="1600553730474" expanded="true" signature="1091:1424" ph="{...}" />
                 <marker date="1600553730474" expanded="true" signature="1309:1418" ph="{...}" />
                 <marker date="1600553730474" expanded="true" signature="1467:1627" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TVturnoff.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <marker date="1600555003489" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600555003489" expanded="true" signature="118:669" ph="{...}" />
+                <marker date="1600555003489" expanded="true" signature="234:348" ph="{...}" />
+                <marker date="1600555003489" expanded="true" signature="384:667" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -194,6 +212,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/WirePositions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TVturnoff.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickAndPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -234,10 +253,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TVturnoff.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="474" />
     <option name="y" value="162" />
     <option name="width" value="1294" />
@@ -308,12 +328,12 @@
       <workItem from="1600222121120" duration="11597000" />
       <workItem from="1600387779720" duration="2377000" />
       <workItem from="1600390171953" duration="35651000" />
-      <workItem from="1600547023412" duration="6699000" />
+      <workItem from="1600547023412" duration="7941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56482000" />
+    <option name="totallyTimeSpent" value="57724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,7 +345,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="474" y="162" width="1294" height="1166" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2535771" />
@@ -593,6 +613,19 @@
             <marker date="1600553730474" expanded="true" signature="1091:1424" ph="{...}" />
             <marker date="1600553730474" expanded="true" signature="1309:1418" ph="{...}" />
             <marker date="1600553730474" expanded="true" signature="1467:1627" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TVturnoff.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <marker date="1600555003489" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600555003489" expanded="true" signature="118:669" ph="{...}" />
+            <marker date="1600555003489" expanded="true" signature="234:348" ph="{...}" />
+            <marker date="1600555003489" expanded="true" signature="384:667" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -27,6 +27,7 @@
             <e p="ClickPos.cs" t="Include" />
           </e>
           <e p="RotateForever.cs" t="Include" />
+          <e p="TVturnoff.cs" t="Include" />
           <e p="VGplayer" t="Include">
             <e p="GameControls.cs" t="Include" />
           </e>
