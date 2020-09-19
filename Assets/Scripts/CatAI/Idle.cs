@@ -6,42 +6,52 @@ public class Idle : StateMachineBehaviour
 {
     public Vector2 randomXRange;
     public Vector2 randomYRange;
-    private MyScript _MyScript_script;
+    private YieldThenNewPos _YieldThenNewPos_script;
     public Movement _Movement_script;
 
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         SetVariables(animator);
-        _MyScript_script.Fire();
+        _YieldThenNewPos_script.Fire();
     }
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         // Set movement position of transform object on Movement.cs
-        _Movement_script.moveToPos.position = _MyScript_script.randomIdleRange;
+        _Movement_script.moveToPos.position = _YieldThenNewPos_script.randomIdleRange;
+        if (_YieldThenNewPos_script.moveToWire)
+        {
+            _YieldThenNewPos_script.moveToWire = false;
+            animator.SetBool("idle", false);
+            animator.SetBool("movingToWire", true);
+            Debug.Log("Moving to wire");
+        }
     }
 
     public override void OnStateExit(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
-        Destroy(animator.gameObject.GetComponent<MyScript>());
+        Destroy(animator.gameObject.GetComponent<YieldThenNewPos>());
     }
 
     public void SetVariables(Animator animator)
     {
         _Movement_script = animator.gameObject.GetComponent<Movement>();
-        _MyScript_script = animator.gameObject.AddComponent<MyScript>();
-        _MyScript_script.randomXRange = randomXRange;
-        _MyScript_script.randomYRange = randomYRange;
+        _YieldThenNewPos_script = animator.gameObject.AddComponent<YieldThenNewPos>();
+        _YieldThenNewPos_script.randomXRange = randomXRange;
+        _YieldThenNewPos_script.randomYRange = randomYRange;
     }
 
-    public class MyScript : MonoBehaviour
+    public class YieldThenNewPos : MonoBehaviour
     {
         public Vector2 randomXRange;
         public Vector2 randomYRange;
         public Vector2 randomIdleRange;
+
+        public bool moveToWire;
         public void Fire()
         {
             StartCoroutine(WaitBeforeMoving());
+            StartCoroutine(WaitBeforeMovingToWire());
         }
 
         IEnumerator WaitBeforeMoving()
@@ -53,6 +63,13 @@ public class Idle : StateMachineBehaviour
             yield return new WaitForSecondsRealtime(Random.Range(1f,2f));
             StartCoroutine(WaitBeforeMoving());
         }
+
+        IEnumerator WaitBeforeMovingToWire()
+        {
+            yield return new WaitForSecondsRealtime(Random.Range(1f,10f));
+            moveToWire = true;
+        }
+
     }
 }
 
