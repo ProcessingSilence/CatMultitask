@@ -21,6 +21,7 @@ public class Idle : StateMachineBehaviour
     public string nextBool;
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
+
         SetVariables(animator);
         _YieldThenNewPos_script.Fire();
     }
@@ -47,11 +48,11 @@ public class Idle : StateMachineBehaviour
     public void SetVariables(Animator animator)
     {
         _movement_script = animator.gameObject.GetComponent<Movement>();
+        _YieldThenNewPos_script = animator.gameObject.AddComponent<YieldThenNewPos>();
         if (_movement_script.enabled == false)
         {
             _movement_script.enabled = true;
         }       
-        _YieldThenNewPos_script = animator.gameObject.AddComponent<YieldThenNewPos>();
         _YieldThenNewPos_script.randomXRange = randomXRange;
         _YieldThenNewPos_script.randomYRange = randomYRange;
         _YieldThenNewPos_script.beginTransition = false;

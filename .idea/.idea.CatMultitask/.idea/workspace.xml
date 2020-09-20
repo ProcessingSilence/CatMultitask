@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="336">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <marker date="1600614872557" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600614872557" expanded="true" signature="80:301" ph="/* Move around in a random range on a random range time iteration, until another random range of time determines  ... */" />
@@ -34,6 +34,21 @@
                 <marker date="1600614872557" expanded="true" signature="2935:3024" ph="{...}" />
                 <marker date="1600614872557" expanded="true" signature="3074:3455" ph="{...}" />
                 <marker date="1600614872557" expanded="true" signature="3504:3682" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VGplayer/GameControls.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+              <folding>
+                <marker date="1600618185924" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600618185924" expanded="true" signature="121:590" ph="{...}" />
+                <marker date="1600618185924" expanded="true" signature="291:346" ph="{...}" />
+                <marker date="1600618185924" expanded="true" signature="404:588" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,22 +82,6 @@
                 <marker date="1600616248093" expanded="true" signature="755:936" ph="/* The origin of this was &quot;https://gist.github.com/polysmurf/7393396&quot; in 2019, but the link is dead unfortunately ... */" />
                 <marker date="1600616248093" expanded="true" signature="973:1506" ph="{...}" />
                 <marker date="1600616248093" expanded="true" signature="1067:1500" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <marker date="1600561816703" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600561816703" expanded="true" signature="129:926" ph="{...}" />
-                <marker date="1600561816703" expanded="true" signature="299:372" ph="{...}" />
-                <marker date="1600561816703" expanded="true" signature="574:924" ph="{...}" />
-                <marker date="1600561816703" expanded="true" signature="738:911" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -232,6 +231,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/WirePositions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossAI/BossIdle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VGplayer/GameControls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickAndPlayer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -282,11 +282,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BossAI/AttackOrder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BossAI/BossIdle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VGplayer/GameControls.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -347,12 +348,12 @@
       <workItem from="1600390171953" duration="35651000" />
       <workItem from="1600547023412" duration="13926000" />
       <workItem from="1600612023085" duration="17000" />
-      <workItem from="1600612245444" duration="4297000" />
+      <workItem from="1600612245444" duration="5621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68023000" />
+    <option name="totallyTimeSpent" value="69347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,10 +680,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VGplayer/GameControls.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <marker date="1600618185924" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600618185924" expanded="true" signature="121:590" ph="{...}" />
+            <marker date="1600618185924" expanded="true" signature="291:346" ph="{...}" />
+            <marker date="1600618185924" expanded="true" signature="404:588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="336">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <marker date="1600614872557" expanded="false" signature="6:78" ph="..." />
             <marker date="1600614872557" expanded="true" signature="80:301" ph="/* Move around in a random range on a random range time iteration, until another random range of time determines  ... */" />
