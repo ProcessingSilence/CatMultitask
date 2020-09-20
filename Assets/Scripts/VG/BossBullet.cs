@@ -15,6 +15,9 @@ public class BossBullet : Bullet
     void Update()
     {
         DepleteHealthAndDestroy();
+        Movement();
+        OutOfBounds();
+        DestroyObj();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -37,7 +40,7 @@ public class BossBullet : Bullet
             
             if (_vgPlayerHealth_script.depleteHealth)
             {
-                Destroy(transform.parent.gameObject);
+                kill = true;
             }
         }
     }

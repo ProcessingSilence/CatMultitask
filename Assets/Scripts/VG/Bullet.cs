@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
 
     [HideInInspector] public bool kill;
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         if (!rotateWithSpawner)
         {
@@ -21,21 +21,13 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        Movement();
-        OutOfBounds();
-        DestroyObj();
-    }
-
-    void Movement()
+    public void Movement()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
         graphics.position = transform.position;
     }
 
-    void OutOfBounds()
+    public void OutOfBounds()
     {
         if (transform.position.x > 10 || transform.position.x < -10 || transform.position.y > 10 || transform.position.y < -10)
         {
@@ -43,11 +35,11 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    void DestroyObj()
+    public void DestroyObj()
     {
         if (kill)
         {
-            Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
         }
     }
 }

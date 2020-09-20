@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b0a0d0867cb189547b208cac863e3479, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37ba9eae2cf246c4f88aa4ef85e96e5c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -153,7 +153,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.07
 --- !u!50 &6787702594766275976
 Rigidbody2D:
   serializedVersion: 4
@@ -205,7 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6787702594837367842}
   m_Layer: 13
-  m_Name: largeBullet
+  m_Name: smallBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
