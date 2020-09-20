@@ -20,7 +20,8 @@ public class GameOverCheck : MonoBehaviour
     }
     
 
-    // Start is called before the first frame update
+    // For some reason getting Animator from the static gameobject variable doesn't work, even though it is clearly listed.
+    // in a public variable and is shown in debug.log.
     void Awake()
     {
         //catAnim = GlobalObjs.ImportantObjs.cat.GetComponent<Animator>();
@@ -33,6 +34,7 @@ public class GameOverCheck : MonoBehaviour
         {
             GameOverVars.gameOver = true;
             tvKillEffect.SetActive(true);
+            catAnim.SetBool("infiniteIdle", true);
         }
     }
 }

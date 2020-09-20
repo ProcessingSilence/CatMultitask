@@ -5093,6 +5093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeIteration: 1
   health: 10
+  sparkAddIteration: 0
   sparks: {fileID: 0}
   coroutineAllowed: 1
   catDistance: 0
@@ -5407,6 +5408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeIteration: 1
   health: 10
+  sparkAddIteration: 0
   sparks: {fileID: 0}
   coroutineAllowed: 1
   catDistance: 0
@@ -26765,6 +26767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeIteration: 1
   health: 10
+  sparkAddIteration: 0
   sparks: {fileID: 0}
   coroutineAllowed: 1
   catDistance: 0
@@ -27107,6 +27110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeIteration: 1
   health: 10
+  sparkAddIteration: 0
   sparks: {fileID: 0}
   coroutineAllowed: 1
   catDistance: 0
@@ -27298,6 +27302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeIteration: 1
   health: 10
+  sparkAddIteration: 0
   sparks: {fileID: 0}
   coroutineAllowed: 1
   catDistance: 0
@@ -27678,7 +27683,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.55, y: 1}
+  m_Size: {x: 1, y: 1.5}
   m_EdgeRadius: 0
 --- !u!212 &1781519535
 SpriteRenderer:
@@ -27957,7 +27962,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.7
 --- !u!50 &1891871701
 Rigidbody2D:
   serializedVersion: 4

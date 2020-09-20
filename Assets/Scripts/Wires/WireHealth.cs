@@ -8,6 +8,8 @@ public class WireHealth : MonoBehaviour
 
     public int health;
     private int maxHealth;
+    public float sparkAddIteration;
+    private float divideIteration = 1.5f;
 
     public ParticleSystem sparks;
 
@@ -33,7 +35,6 @@ public class WireHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SparkEmission();
         DecideHealthLoss();
         DecideGameOver();
     }
@@ -42,7 +43,21 @@ public class WireHealth : MonoBehaviour
     public void SparkEmission()
     {
         var emission = sparks.emission;
-        emission.rateOverTime = maxHealth - health;
+        if (health == maxHealth - 1)
+        {
+            sparkAddIteration = 1;
+        }
+
+        else if (health > 0)
+        {
+            sparkAddIteration += sparkAddIteration/divideIteration;
+            divideIteration -= 0.1f;
+        }
+        else
+        {
+            sparkAddIteration = 0;
+        }
+        emission.rateOverTime = sparkAddIteration;
     }
     
     public void DecideHealthLoss()
@@ -61,7 +76,10 @@ public class WireHealth : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(timeIteration);
         if (_catTouching)
+        {
             health -= 1;
+            SparkEmission();
+        }
         coroutineAllowed = true;
     }
 
