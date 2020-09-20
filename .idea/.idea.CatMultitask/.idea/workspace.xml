@@ -13,54 +13,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/PickedUp.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1600549659408" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600549659408" expanded="true" signature="125:1660" ph="{...}" />
-                <marker date="1600549659408" expanded="true" signature="500:811" ph="{...}" />
-                <marker date="1600549659408" expanded="true" signature="923:1658" ph="{...}" />
-                <marker date="1600549659408" expanded="true" signature="1479:1596" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <marker date="1600553254257" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600553254257" expanded="true" signature="128:498" ph="{...}" />
-                <marker date="1600553254257" expanded="true" signature="280:341" ph="{...}" />
-                <marker date="1600553254257" expanded="true" signature="443:496" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            <state relative-caret-position="752">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
-                <marker date="1600556041226" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600556041226" expanded="true" signature="121:2757" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="431:515" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="627:1121" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="836:1115" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="1231:1313" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="1362:1777" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="1488:1553" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="1827:2755" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="2041:2206" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="2246:2577" ph="{...}" />
-                <marker date="1600556041226" expanded="true" signature="2623:2749" ph="{...}" />
+                <marker date="1600614872557" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600614872557" expanded="true" signature="80:301" ph="/* Move around in a random range on a random range time iteration, until another random range of time determines  ... */" />
+                <marker date="1600614872557" expanded="true" signature="343:3690" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="785:869" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="981:1361" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="1203:1355" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="1471:1553" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="1559:1701" ph="/* I probably could have made this more organized had I used static variables. But lack of time says it's too lat ... */" />
+                <marker date="1600614872557" expanded="true" signature="1749:2444" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="1875:1940" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="2494:3688" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="2825:3034" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="2935:3024" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="3074:3455" ph="{...}" />
+                <marker date="1600614872557" expanded="true" signature="3504:3682" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BossAI/BossIdle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1600616248125" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600616248125" expanded="true" signature="108:113" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BossAI/AttackOrder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <marker date="1600616248093" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600616248093" expanded="true" signature="80:305" ph="/* Array containing boss attack order gets shuffled then iterated through. Reshuffles upon array iteration comple ... */" />
+                <marker date="1600616248093" expanded="true" signature="346:1509" ph="{...}" />
+                <marker date="1600616248093" expanded="true" signature="544:565" ph="{...}" />
+                <marker date="1600616248093" expanded="true" signature="623:749" ph="{...}" />
+                <marker date="1600616248093" expanded="true" signature="655:743" ph="{...}" />
+                <marker date="1600616248093" expanded="true" signature="755:936" ph="/* The origin of this was &quot;https://gist.github.com/polysmurf/7393396&quot; in 2019, but the link is dead unfortunately ... */" />
+                <marker date="1600616248093" expanded="true" signature="973:1506" ph="{...}" />
+                <marker date="1600616248093" expanded="true" signature="1067:1500" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="208">
               <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <marker date="1600561816703" expanded="false" signature="6:78" ph="..." />
@@ -102,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="464">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <marker date="1600561694810" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600561694810" expanded="true" signature="119:2222" ph="{...}" />
@@ -127,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TvKillEffect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="304">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <marker date="1600556249281" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600556249281" expanded="true" signature="121:730" ph="{...}" />
@@ -154,11 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="368">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <marker date="1600562232141" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600562232141" expanded="true" signature="122:1124" ph="{...}" />
@@ -200,6 +206,7 @@
       <find>chair</find>
       <find>circle</find>
       <find>player</find>
+      <find>moveToWire</find>
     </findStrings>
     <replaceStrings>
       <replace>transform</replace>
@@ -210,6 +217,7 @@
       <replace>_chair</replace>
       <replace>RLplayer</replace>
       <replace>_player</replace>
+      <replace>beginTransition</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -223,9 +231,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TvKillEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/WirePositions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossAI/BossIdle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickAndPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossAI/AttackOrder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/PickedUp.cs" root0="FORCE_HIGHLIGHTING" />
@@ -264,37 +274,28 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TVturnoff.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameOverCheck.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TvTurnOff.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TvKillEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BossAI/AttackOrder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BossAI/BossIdle.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="365" />
-    <option name="y" value="178" />
+    <option name="x" value="-7" />
     <option name="width" value="1294" />
-    <option name="height" value="1166" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -344,12 +345,14 @@
       <workItem from="1600222121120" duration="11597000" />
       <workItem from="1600387779720" duration="2377000" />
       <workItem from="1600390171953" duration="35651000" />
-      <workItem from="1600547023412" duration="13319000" />
+      <workItem from="1600547023412" duration="13926000" />
+      <workItem from="1600612023085" duration="17000" />
+      <workItem from="1600612245444" duration="4297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63102000" />
+    <option name="totallyTimeSpent" value="68023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,7 +364,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="365" y="178" width="1294" height="1166" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2535771" />
@@ -479,7 +482,6 @@
         <state>
           <folding>
             <marker date="1600536407513" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600536407513" expanded="true" signature="116:486" ph="{...}" />
             <marker date="1600536407513" expanded="true" signature="196:257" ph="{...}" />
             <marker date="1600536407513" expanded="true" signature="280:484" ph="{...}" />
             <marker date="1600536407513" expanded="true" signature="340:478" ph="{...}" />
@@ -512,117 +514,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/GetDropped.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-          <folding>
-            <marker date="1600549659385" expanded="true" signature="6:78" ph="..." />
-            <marker date="1600549659385" expanded="true" signature="127:950" ph="{...}" />
-            <marker date="1600549659385" expanded="true" signature="318:506" ph="{...}" />
-            <marker date="1600549659385" expanded="true" signature="657:948" ph="{...}" />
-            <marker date="1600549659385" expanded="true" signature="714:942" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameOverCheck.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <marker date="1600553254257" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600553254257" expanded="true" signature="128:498" ph="{...}" />
-            <marker date="1600553254257" expanded="true" signature="280:341" ph="{...}" />
-            <marker date="1600553254257" expanded="true" signature="443:496" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TvTurnOff.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TvKillEffect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <marker date="1600556249281" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600556249281" expanded="true" signature="121:730" ph="{...}" />
-            <marker date="1600556249281" expanded="true" signature="237:351" ph="{...}" />
-            <marker date="1600556249281" expanded="true" signature="387:728" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1600543909424" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600543909424" expanded="true" signature="119:1244" ph="{...}" />
-            <marker date="1600543909424" expanded="true" signature="264:395" ph="{...}" />
-            <marker date="1600543909424" expanded="true" signature="466:1241" ph="{...}" />
-            <marker date="1600543909424" expanded="true" signature="1101:1187" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-          <folding>
-            <marker date="1600556041226" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600556041226" expanded="true" signature="121:2757" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="431:515" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="627:1121" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="836:1115" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="1231:1313" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="1362:1777" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="1488:1553" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="1827:2755" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="2041:2206" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="2246:2577" ph="{...}" />
-            <marker date="1600556041226" expanded="true" signature="2623:2749" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <marker date="1600561694810" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600561694810" expanded="true" signature="119:2222" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="554:789" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="847:913" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="1026:1444" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="1109:1164" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="1194:1319" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="1332:1387" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="1484:1817" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="1702:1811" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="1860:2069" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="1956:2030" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="2103:2218" ph="{...}" />
-            <marker date="1600561694810" expanded="true" signature="2134:2212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameOverCheck.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TvTurnOff.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/PickedUp.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -636,9 +529,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/ChewingWire.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1600553254257" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600553254257" expanded="true" signature="128:498" ph="{...}" />
+            <marker date="1600553254257" expanded="true" signature="280:341" ph="{...}" />
+            <marker date="1600553254257" expanded="true" signature="443:496" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectPickup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="208">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <marker date="1600561816703" expanded="false" signature="6:78" ph="..." />
@@ -665,10 +571,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wires/WireHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1600561694810" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600561694810" expanded="true" signature="119:2222" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="554:789" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="847:913" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="1026:1444" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="1109:1164" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="1194:1319" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="1332:1387" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="1484:1817" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="1702:1811" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="1860:2069" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="1956:2030" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="2103:2218" ph="{...}" />
+            <marker date="1600561694810" expanded="true" signature="2134:2212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TvKillEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1600556249281" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600556249281" expanded="true" signature="121:730" ph="{...}" />
+            <marker date="1600556249281" expanded="true" signature="237:351" ph="{...}" />
+            <marker date="1600556249281" expanded="true" signature="387:728" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1600543909424" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600543909424" expanded="true" signature="119:1244" ph="{...}" />
+            <marker date="1600543909424" expanded="true" signature="264:395" ph="{...}" />
+            <marker date="1600543909424" expanded="true" signature="466:1241" ph="{...}" />
+            <marker date="1600543909424" expanded="true" signature="1101:1187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="368">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <marker date="1600562232141" expanded="false" signature="6:78" ph="..." />
             <marker date="1600562232141" expanded="true" signature="122:1124" ph="{...}" />
@@ -677,6 +632,73 @@
             <marker date="1600562232141" expanded="true" signature="674:761" ph="{...}" />
             <marker date="1600562232141" expanded="true" signature="819:1122" ph="{...}" />
             <marker date="1600562232141" expanded="true" signature="896:1116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/GetDropped.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <marker date="1600549659385" expanded="true" signature="6:78" ph="..." />
+            <marker date="1600549659385" expanded="true" signature="127:950" ph="{...}" />
+            <marker date="1600549659385" expanded="true" signature="318:506" ph="{...}" />
+            <marker date="1600549659385" expanded="true" signature="657:948" ph="{...}" />
+            <marker date="1600549659385" expanded="true" signature="714:942" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BossAI/BossIdle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1600616248125" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600616248125" expanded="true" signature="108:113" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BossAI/AttackOrder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <marker date="1600616248093" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600616248093" expanded="true" signature="80:305" ph="/* Array containing boss attack order gets shuffled then iterated through. Reshuffles upon array iteration comple ... */" />
+            <marker date="1600616248093" expanded="true" signature="346:1509" ph="{...}" />
+            <marker date="1600616248093" expanded="true" signature="544:565" ph="{...}" />
+            <marker date="1600616248093" expanded="true" signature="623:749" ph="{...}" />
+            <marker date="1600616248093" expanded="true" signature="655:743" ph="{...}" />
+            <marker date="1600616248093" expanded="true" signature="755:936" ph="/* The origin of this was &quot;https://gist.github.com/polysmurf/7393396&quot; in 2019, but the link is dead unfortunately ... */" />
+            <marker date="1600616248093" expanded="true" signature="973:1506" ph="{...}" />
+            <marker date="1600616248093" expanded="true" signature="1067:1500" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/Idle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <marker date="1600614872557" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600614872557" expanded="true" signature="80:301" ph="/* Move around in a random range on a random range time iteration, until another random range of time determines  ... */" />
+            <marker date="1600614872557" expanded="true" signature="343:3690" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="785:869" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="981:1361" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="1203:1355" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="1471:1553" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="1559:1701" ph="/* I probably could have made this more organized had I used static variables. But lack of time says it's too lat ... */" />
+            <marker date="1600614872557" expanded="true" signature="1749:2444" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="1875:1940" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="2494:3688" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="2825:3034" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="2935:3024" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="3074:3455" ph="{...}" />
+            <marker date="1600614872557" expanded="true" signature="3504:3682" ph="{...}" />
           </folding>
         </state>
       </provider>

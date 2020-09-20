@@ -10,6 +10,7 @@ TagManager:
   - VGplayer
   - Sitting
   - ChewingWire
+  - ExplosiveParticle
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - PlayerAndClick
   - Cat
   - Wire
-  - 
+  - ExplosiveParticle
   - 
   - 
   - 
