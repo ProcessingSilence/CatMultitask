@@ -34,7 +34,7 @@ public class Idle : StateMachineBehaviour
         {
             animator.SetBool(nextBool, true);
             animator.SetBool("idle", false);
-            Debug.Log("Moving to wire");
+            //Debug.Log("Moving to wire");
         }
     }
 

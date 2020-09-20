@@ -7,38 +7,48 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="BossAI" t="Include">
-            <e p="AttackOrder.cs" t="Include" />
-            <e p="BossIdle.cs" t="Include" />
-          </e>
-          <e p="CatAI" t="Include">
-            <e p="ChewingWire.cs" t="Include" />
-            <e p="DetectPickup.cs" t="Include" />
-            <e p="GetDropped.cs" t="Include" />
-            <e p="Idle.cs" t="Include" />
-            <e p="MoveToWire.cs" t="Include" />
-            <e p="PickedUp.cs" t="Include" />
-            <e p="WirePositions.cs" t="Include" />
-          </e>
-          <e p="Chair.cs" t="Include" />
-          <e p="ClickAndPlayer.cs" t="Include" />
+          <e p="DestroyMyself.cs" t="Include" />
           <e p="FlipSprite.cs" t="Include" />
           <e p="GlobalSettings" t="Include">
+            <e p="AllowGameMovement.cs" t="Include" />
             <e p="GameOverCheck.cs" t="Include" />
             <e p="GlobalObjs.cs" t="Include" />
           </e>
           <e p="Movement.cs" t="Include" />
-          <e p="RLplayer" t="Include">
-            <e p="ClickPos.cs" t="Include" />
+          <e p="RL" t="Include">
+            <e p="CatAI" t="Include">
+              <e p="ChewingWire.cs" t="Include" />
+              <e p="DetectPickup.cs" t="Include" />
+              <e p="GetDropped.cs" t="Include" />
+              <e p="Idle.cs" t="Include" />
+              <e p="MoveToWire.cs" t="Include" />
+              <e p="PickedUp.cs" t="Include" />
+              <e p="WirePositions.cs" t="Include" />
+            </e>
+            <e p="Chair.cs" t="Include" />
+            <e p="ClickAndPlayer.cs" t="Include" />
+            <e p="RLplayer" t="Include">
+              <e p="ClickPos.cs" t="Include" />
+            </e>
+            <e p="Wires" t="Include">
+              <e p="DetectCat.cs" t="Include" />
+              <e p="WireHealth.cs" t="Include" />
+            </e>
           </e>
           <e p="RotateForever.cs" t="Include" />
           <e p="TvKillEffect.cs" t="Include" />
-          <e p="VGplayer" t="Include">
-            <e p="GameControls.cs" t="Include" />
-          </e>
-          <e p="Wires" t="Include">
-            <e p="DetectCat.cs" t="Include" />
-            <e p="WireHealth.cs" t="Include" />
+          <e p="VG" t="Include">
+            <e p="BossAI" t="Include">
+              <e p="AttackOrder.cs" t="Include" />
+              <e p="BossIdle.cs" t="Include" />
+            </e>
+            <e p="BossBullet.cs" t="Include" />
+            <e p="Bullet.cs" t="Include" />
+            <e p="VGplayer" t="Include">
+              <e p="Shooting.cs" t="Include" />
+              <e p="VgPlayerHealth.cs" t="Include" />
+              <e p="VGplayerMovement.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>

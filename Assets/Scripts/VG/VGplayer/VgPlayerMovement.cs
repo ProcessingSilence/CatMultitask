@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameControls : MonoBehaviour
+public class VgPlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rb;
 
@@ -12,7 +12,7 @@ public class GameControls : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _rb = GetComponent<Rigidbody2D>();
+        _rb = transform.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -22,5 +22,10 @@ public class GameControls : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
 
         _rb.velocity = new Vector2(horizontal,vertical) * moveSpeed;
+    }
+
+    private void OnDisable()
+    {
+        _rb.velocity = Vector2.zero;
     }
 }
