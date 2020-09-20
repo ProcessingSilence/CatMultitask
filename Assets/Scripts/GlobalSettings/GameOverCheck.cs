@@ -11,6 +11,7 @@ public class GameOverCheck : MonoBehaviour
     public bool wireKilled;
 
     public GameObject tvKillEffect;
+    public GameObject videoGame;
     
     public static class GameOverVars
     {
@@ -20,7 +21,7 @@ public class GameOverCheck : MonoBehaviour
     }
     
 
-    // For some reason getting Animator from the static gameobject variable doesn't work, even though it is clearly listed.
+    // For some reason getting Animator from the static gameobject variable doesn't work, even though it is clearly listed
     // in a public variable and is shown in debug.log.
     void Awake()
     {
@@ -32,8 +33,11 @@ public class GameOverCheck : MonoBehaviour
     {
         if (GameOverVars.wireKilled && GameOverVars.gameOver == false)
         {
-            GameOverVars.gameOver = true;
             tvKillEffect.SetActive(true);
+            videoGame.SetActive(false);
+            
+            GameOverVars.gameOver = true;
+           
             catAnim.SetBool("infiniteIdle", true);
         }
     }
