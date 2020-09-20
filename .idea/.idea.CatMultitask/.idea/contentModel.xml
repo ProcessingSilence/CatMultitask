@@ -41,6 +41,7 @@
             <e p="BossAI" t="Include">
               <e p="AttackOrder.cs" t="Include" />
               <e p="BossIdle.cs" t="Include" />
+              <e p="FireAtPlayer.cs" t="Include" />
             </e>
             <e p="BossBullet.cs" t="Include" />
             <e p="Bullet.cs" t="Include" />

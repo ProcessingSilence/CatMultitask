@@ -13,7 +13,7 @@ public class Idle : StateMachineBehaviour
     public Vector2 idleMovementWaitRange;
     public Vector2 stateTransitionWaitRange;
     
-    [HideInInspector] public YieldThenNewPos _YieldThenNewPos_script;
+    [HideInInspector] public YieldThenNewPos YieldThenNewPos_script;
     public Movement _movement_script;
     
     public bool infiniteIdle;
@@ -23,14 +23,14 @@ public class Idle : StateMachineBehaviour
     {
 
         SetVariables(animator);
-        _YieldThenNewPos_script.Fire();
+        YieldThenNewPos_script.Fire();
     }
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         // Set movement position of transform object on Movement.cs
-        _movement_script.moveToPos.position = _YieldThenNewPos_script.randomIdleMovementRange;
-        if (_YieldThenNewPos_script.beginTransition)
+        _movement_script.moveToPos.position = YieldThenNewPos_script.randomIdleMovementRange;
+        if (YieldThenNewPos_script.beginTransition)
         {
             animator.SetBool(nextBool, true);
             animator.SetBool("idle", false);
@@ -48,17 +48,17 @@ public class Idle : StateMachineBehaviour
     public void SetVariables(Animator animator)
     {
         _movement_script = animator.gameObject.GetComponent<Movement>();
-        _YieldThenNewPos_script = animator.gameObject.AddComponent<YieldThenNewPos>();
+        YieldThenNewPos_script = animator.gameObject.AddComponent<YieldThenNewPos>();
         if (_movement_script.enabled == false)
         {
             _movement_script.enabled = true;
         }       
-        _YieldThenNewPos_script.randomXRange = randomXRange;
-        _YieldThenNewPos_script.randomYRange = randomYRange;
-        _YieldThenNewPos_script.beginTransition = false;
-        _YieldThenNewPos_script.stateTransitionWaitRange = stateTransitionWaitRange;
-        _YieldThenNewPos_script.idleMovementWaitRange = idleMovementWaitRange;
-        _YieldThenNewPos_script.infiniteIdle = infiniteIdle;
+        YieldThenNewPos_script.randomXRange = randomXRange;
+        YieldThenNewPos_script.randomYRange = randomYRange;
+        YieldThenNewPos_script.beginTransition = false;
+        YieldThenNewPos_script.stateTransitionWaitRange = stateTransitionWaitRange;
+        YieldThenNewPos_script.idleMovementWaitRange = idleMovementWaitRange;
+        YieldThenNewPos_script.infiniteIdle = infiniteIdle;
     }
 
     public class YieldThenNewPos : MonoBehaviour
