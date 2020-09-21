@@ -16,16 +16,16 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file pinned="false" current-in-tab="false">
+            <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="272">
-                    <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+                  <state relative-caret-position="336">
+                    <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
                     <folding>
-                      <marker date="1600655150490" expanded="false" signature="6:105" ph="..." />
-                      <marker date="1600655150490" expanded="true" signature="143:781" ph="{...}" />
-                      <marker date="1600655150490" expanded="true" signature="342:617" ph="{...}" />
-                      <marker date="1600655150490" expanded="true" signature="719:779" ph="{...}" />
+                      <marker date="1600665797289" expanded="true" signature="6:78" ph="..." />
+                      <marker date="1600665797289" expanded="true" signature="116:754" ph="{...}" />
+                      <marker date="1600665797289" expanded="true" signature="315:590" ph="{...}" />
+                      <marker date="1600665797289" expanded="true" signature="692:752" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -129,7 +129,7 @@
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs">
                 <provider selected="true" editor-type-id="text-editor">
                   <state>
-                    <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+                    <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
                     <folding>
                       <marker date="1600543909424" expanded="false" signature="6:78" ph="..." />
                       <marker date="1600543909424" expanded="true" signature="119:1244" ph="{...}" />
@@ -141,21 +141,21 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="800">
-                    <caret line="50" column="93" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
+                  <state relative-caret-position="880">
+                    <caret line="55" selection-start-line="55" selection-end-line="55" />
                     <folding>
-                      <marker date="1600665403362" expanded="true" signature="6:113" ph="..." />
-                      <marker date="1600665403362" expanded="true" signature="157:1491" ph="{...}" />
-                      <marker date="1600665403362" expanded="true" signature="382:508" ph="{...}" />
-                      <marker date="1600665403362" expanded="true" signature="519:692" ph="/* For some reason getting Animator from the static gameobject variable doesn't work, even though it is clearly l ... */" />
-                      <marker date="1600665403362" expanded="true" signature="709:796" ph="{...}" />
-                      <marker date="1600665403362" expanded="true" signature="854:1489" ph="{...}" />
-                      <marker date="1600665403362" expanded="true" signature="931:1151" ph="{...}" />
-                      <marker date="1600665403362" expanded="true" signature="1221:1283" ph="{...}" />
-                      <marker date="1600665403362" expanded="true" signature="1325:1483" ph="{...}" />
+                      <marker date="1600665418975" expanded="true" signature="6:113" ph="..." />
+                      <marker date="1600665418975" expanded="true" signature="157:1519" ph="{...}" />
+                      <marker date="1600665418975" expanded="true" signature="382:508" ph="{...}" />
+                      <marker date="1600665418975" expanded="true" signature="519:692" ph="/* For some reason getting Animator from the static gameobject variable doesn't work, even though it is clearly l ... */" />
+                      <marker date="1600665418975" expanded="true" signature="709:796" ph="{...}" />
+                      <marker date="1600665418975" expanded="true" signature="854:1517" ph="{...}" />
+                      <marker date="1600665418975" expanded="true" signature="931:1151" ph="{...}" />
+                      <marker date="1600665418975" expanded="true" signature="1221:1283" ph="{...}" />
+                      <marker date="1600665418975" expanded="true" signature="1325:1511" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -458,13 +458,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/ChooseAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletTiming.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FuckingBulletSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/VGplayer/VgPlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/NewBulletSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/TimeScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs" />
       </list>
     </option>
   </component>
@@ -530,12 +530,12 @@
       <workItem from="1600390171953" duration="35651000" />
       <workItem from="1600547023412" duration="13926000" />
       <workItem from="1600612023085" duration="17000" />
-      <workItem from="1600612245444" duration="39415000" />
+      <workItem from="1600612245444" duration="39809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103141000" />
+    <option name="totallyTimeSpent" value="103535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,19 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <marker date="1600655150490" expanded="false" signature="6:105" ph="..." />
-            <marker date="1600655150490" expanded="true" signature="143:781" ph="{...}" />
-            <marker date="1600655150490" expanded="true" signature="342:617" ph="{...}" />
-            <marker date="1600655150490" expanded="true" signature="719:779" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/Charge.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1098,7 +1085,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
             <marker date="1600543909424" expanded="false" signature="6:78" ph="..." />
             <marker date="1600543909424" expanded="true" signature="119:1244" ph="{...}" />
@@ -1140,18 +1127,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="50" column="93" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
+        <state relative-caret-position="880">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
-            <marker date="1600665403362" expanded="true" signature="6:113" ph="..." />
-            <marker date="1600665403362" expanded="true" signature="157:1491" ph="{...}" />
-            <marker date="1600665403362" expanded="true" signature="382:508" ph="{...}" />
-            <marker date="1600665403362" expanded="true" signature="519:692" ph="/* For some reason getting Animator from the static gameobject variable doesn't work, even though it is clearly l ... */" />
-            <marker date="1600665403362" expanded="true" signature="709:796" ph="{...}" />
-            <marker date="1600665403362" expanded="true" signature="854:1489" ph="{...}" />
-            <marker date="1600665403362" expanded="true" signature="931:1151" ph="{...}" />
-            <marker date="1600665403362" expanded="true" signature="1221:1283" ph="{...}" />
-            <marker date="1600665403362" expanded="true" signature="1325:1483" ph="{...}" />
+            <marker date="1600665418975" expanded="true" signature="6:113" ph="..." />
+            <marker date="1600665418975" expanded="true" signature="157:1519" ph="{...}" />
+            <marker date="1600665418975" expanded="true" signature="382:508" ph="{...}" />
+            <marker date="1600665418975" expanded="true" signature="519:692" ph="/* For some reason getting Animator from the static gameobject variable doesn't work, even though it is clearly l ... */" />
+            <marker date="1600665418975" expanded="true" signature="709:796" ph="{...}" />
+            <marker date="1600665418975" expanded="true" signature="854:1517" ph="{...}" />
+            <marker date="1600665418975" expanded="true" signature="931:1151" ph="{...}" />
+            <marker date="1600665418975" expanded="true" signature="1221:1283" ph="{...}" />
+            <marker date="1600665418975" expanded="true" signature="1325:1511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1600665797289" expanded="true" signature="6:78" ph="..." />
+            <marker date="1600665797289" expanded="true" signature="116:754" ph="{...}" />
+            <marker date="1600665797289" expanded="true" signature="315:590" ph="{...}" />
+            <marker date="1600665797289" expanded="true" signature="692:752" ph="{...}" />
           </folding>
         </state>
       </provider>
