@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FuckingBulletSpawner : MonoBehaviour
+public class NewBulletSpawner : MonoBehaviour
 {
     public GameObject Bullet;
     public GameObject FastBullet;

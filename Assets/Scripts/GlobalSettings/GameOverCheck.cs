@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverCheck : MonoBehaviour
 {
@@ -43,6 +44,12 @@ public class GameOverCheck : MonoBehaviour
         if (GameOverVars.dieInGame && GameOverVars.gameOver == false)
         {
             GameOverVars.gameOver = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            GameOverVars.gameOver = GameOverVars.dieInGame = GameOverVars.wireKilled = false;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

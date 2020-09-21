@@ -26,9 +26,5 @@ public class TimeScore : MonoBehaviour
             timeText.text = "Final Time: " + playerTime;
             playAgain.text = "Press R to try again.";
         }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene("Main");
-        }
     }
 }
