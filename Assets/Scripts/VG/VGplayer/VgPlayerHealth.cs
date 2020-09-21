@@ -70,6 +70,7 @@ public class VgPlayerHealth : MonoBehaviour
             _rb.AddTorque(Random.Range(-50,50), ForceMode2D.Force);
             _rb.AddForce(Vector2.right * Random.Range(-50,50));
             _rb.AddForce(Vector2.up * 350);
+            GameOverCheck.GameOverVars.dieInGame = true;
         }
     }
 }

@@ -40,5 +40,9 @@ public class GameOverCheck : MonoBehaviour
            
             catAnim.SetBool("infiniteIdle", true);
         }
+        if (GameOverVars.dieInGame && GameOverVars.gameOver == false)
+        {
+            GameOverVars.gameOver = true;
+        }
     }
 }
