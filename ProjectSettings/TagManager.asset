@@ -11,6 +11,7 @@ TagManager:
   - Sitting
   - ChewingWire
   - ExplosiveParticle
+  - Boss
   layers:
   - Default
   - TransparentFX

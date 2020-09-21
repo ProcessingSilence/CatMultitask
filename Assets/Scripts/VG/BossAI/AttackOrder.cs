@@ -24,5 +24,4 @@ public class AttackOrder : MonoBehaviour
             animatorBoolNames[rnd] = temp;
         }
     }
-
 }

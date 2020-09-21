@@ -11,29 +11,113 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="3">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="272">
+                    <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+                    <folding>
+                      <marker date="1600655150490" expanded="false" signature="6:105" ph="..." />
+                      <marker date="1600655150490" expanded="true" signature="143:781" ph="{...}" />
+                      <marker date="1600655150490" expanded="true" signature="342:617" ph="{...}" />
+                      <marker date="1600655150490" expanded="true" signature="719:779" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletFire.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="352">
+                    <caret line="26" selection-start-line="26" selection-end-line="26" />
+                    <folding>
+                      <marker date="1600662222637" expanded="false" signature="6:127" ph="..." />
+                      <marker date="1600662222637" expanded="true" signature="129:319" ph="/* Sets up BulletTiming.cs to be used in StateMachine while giving it public variables. ... */" />
+                      <marker date="1600662222637" expanded="true" signature="368:1061" ph="{...}" />
+                      <marker date="1600662222637" expanded="true" signature="596:775" ph="{...}" />
+                      <marker date="1600662222637" expanded="true" signature="879:1059" ph="{...}" />
+                      <marker date="1600662222637" expanded="true" signature="941:1053" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FuckingBulletSpawner.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="736">
+                    <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+                    <folding>
+                      <marker date="1600663706007" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1600663706007" expanded="true" signature="129:1301" ph="{...}" />
+                      <marker date="1600663706007" expanded="true" signature="343:397" ph="{...}" />
+                      <marker date="1600663706007" expanded="true" signature="455:476" ph="{...}" />
+                      <marker date="1600663706007" expanded="true" signature="510:1299" ph="{...}" />
+                      <marker date="1600663706007" expanded="true" signature="707:838" ph="{...}" />
+                      <marker date="1600663706007" expanded="true" signature="880:1010" ph="{...}" />
+                      <marker date="1600663706007" expanded="true" signature="1032:1158" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletTiming.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="320">
+                    <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+                    <folding>
+                      <marker date="1600661411665" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1600661411665" expanded="true" signature="121:1237" ph="{...}" />
+                      <marker date="1600661411665" expanded="true" signature="395:550" ph="{...}" />
+                      <marker date="1600661411665" expanded="true" signature="580:1091" ph="{...}" />
+                      <marker date="1600661411665" expanded="true" signature="623:753" ph="{...}" />
+                      <marker date="1600661411665" expanded="true" signature="1123:1235" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/Singleton.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="848">
+                    <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+                    <folding>
+                      <marker date="1600656872123" expanded="true" signature="0:72" ph="/* Not my code, obviously ... */" />
+                      <marker date="1600656872123" expanded="true" signature="95:241" ph="/// Inherit from this base class to create a singleton. ... " />
+                      <marker date="1600656872123" expanded="true" signature="307:1932" ph="{...}" />
+                      <marker date="1600656872123" expanded="true" signature="498:588" ph="/// Access singleton instance through this propriety. ... " />
+                      <marker date="1600656872123" expanded="true" signature="617:1770" ph="{...}" />
+                      <marker date="1600656872123" expanded="true" signature="635:1764" ph="{...}" />
+                      <marker date="1600656872123" expanded="true" signature="677:880" ph="{...}" />
+                      <marker date="1600656872123" expanded="true" signature="962:1703" ph="{...}" />
+                      <marker date="1600656872123" expanded="true" signature="1217:1685" ph="{...}" />
+                      <marker date="1600656872123" expanded="true" signature="1811:1854" ph="{...}" />
+                      <marker date="1600656872123" expanded="true" signature="1887:1930" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/AllowGameMovement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <marker date="1600634740766" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600634740766" expanded="true" signature="80:165" ph="/* Enables controls if player sits in chair ... */" />
-                <marker date="1600634740766" expanded="true" signature="212:592" ph="{...}" />
-                <marker date="1600634740766" expanded="true" signature="320:412" ph="{...}" />
-                <marker date="1600634740766" expanded="true" signature="470:590" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/VGplayer/VgPlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <marker date="1600634589629" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600634589629" expanded="true" signature="125:683" ph="{...}" />
@@ -68,36 +152,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/AttackOrder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="432">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <marker date="1600650675467" expanded="true" signature="20:162" ph="/* Array containing boss attack order gets shuffled then iterated through. Reshuffles upon array iteration comple ... */" />
-                <marker date="1600650675467" expanded="true" signature="203:1024" ph="{...}" />
-                <marker date="1600650675467" expanded="true" signature="250:431" ph="/* The origin of this was &quot;https://gist.github.com/polysmurf/7393396&quot; in 2019, but the link is dead unfortunately ... */" />
-                <marker date="1600650675467" expanded="true" signature="468:1021" ph="{...}" />
-                <marker date="1600650675467" expanded="true" signature="566:1015" ph="{...}" />
+                <marker date="1600652848251" expanded="true" signature="20:162" ph="/* Array containing boss attack order gets shuffled then iterated through. Reshuffles upon array iteration comple ... */" />
+                <marker date="1600652848251" expanded="true" signature="203:1023" ph="{...}" />
+                <marker date="1600652848251" expanded="true" signature="250:431" ph="/* The origin of this was &quot;https://gist.github.com/polysmurf/7393396&quot; in 2019, but the link is dead unfortunately ... */" />
+                <marker date="1600652848251" expanded="true" signature="468:1021" ph="{...}" />
+                <marker date="1600652848251" expanded="true" signature="566:1015" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FireAtPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1600652848288" expanded="true" signature="6:78" ph="..." />
+                <marker date="1600652848288" expanded="true" signature="118:550" ph="{...}" />
+                <marker date="1600652848288" expanded="true" signature="263:340" ph="{...}" />
+                <marker date="1600652848288" expanded="true" signature="491:548" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/ChooseAttack.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="452">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding>
-                <marker date="1600650675503" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600650675503" expanded="true" signature="229:2117" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="561:803" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="822:853" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="893:1023" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="1057:1413" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="1101:1407" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="1440:1924" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="1604:1918" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="1752:1818" ph="{...}" />
-                <marker date="1600650675503" expanded="true" signature="1962:2115" ph="{...}" />
+                <marker date="1600659806636" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600659806636" expanded="true" signature="229:2068" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="561:803" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="822:853" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="893:1023" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="1057:1364" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="1101:1358" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="1391:1875" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="1555:1869" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="1703:1769" ph="{...}" />
+                <marker date="1600659806636" expanded="true" signature="1913:2066" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,19 +206,19 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BossIdle.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
-              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding>
-                <marker date="1600648242586" expanded="true" signature="28:62" ph="{...}" />
+                <marker date="1600651312555" expanded="true" signature="28:70" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/Charge.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <marker date="1600647353368" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600647353368" expanded="true" signature="123:297" ph="{...}" />
@@ -131,23 +230,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <marker date="1600647353332" expanded="false" signature="6:105" ph="..." />
-                <marker date="1600647353332" expanded="true" signature="154:159" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RL/CatAI/Idle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="110" />
+            <state relative-caret-position="32">
+              <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
               <folding>
                 <marker date="1600640069322" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600640069322" expanded="true" signature="80:301" ph="/* Move around in a random range on a random range time iteration ... */" />
@@ -169,21 +255,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RL/CatAI/ChewingWire.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="101" />
-              <folding>
-                <marker date="1600553254257" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600553254257" expanded="true" signature="128:498" ph="{...}" />
-                <marker date="1600553254257" expanded="true" signature="280:341" ph="{...}" />
-                <marker date="1600553254257" expanded="true" signature="443:496" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -198,11 +269,16 @@
       <find>player</find>
       <find>moveToWire</find>
       <find>killPlayer</find>
-      <find>hitbox</find>
-      <find>_YieldThenNewPos_script</find>
       <find>firstFire</find>
       <find>attackDone</find>
       <find>animatorBools</find>
+      <find>bulletTiming</find>
+      <find>hitbox</find>
+      <find>attac</find>
+      <find>BulletTiming</find>
+      <find>attackWasActivated</find>
+      <find>_YieldThenNewPos_script</find>
+      <find>GetBulletTimingScript_script</find>
     </findStrings>
     <replaceStrings>
       <replace>playerSprite</replace>
@@ -214,11 +290,15 @@
       <replace>_player</replace>
       <replace>beginTransition</replace>
       <replace>hurtPlayer</replace>
-      <replace>transform</replace>
-      <replace>YieldThenNewPos_script</replace>
       <replace>firstFireDelay</replace>
       <replace>imDone</replace>
       <replace>animatorBoolNames</replace>
+      <replace>transform</replace>
+      <replace>SmallBulletTiming</replace>
+      <replace>LongBulletTiming</replace>
+      <replace>attackActivated</replace>
+      <replace>YieldThenNewPos_script</replace>
+      <replace>BulletTiming_script</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -229,14 +309,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/Charge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GlobalObjs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FireAtPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FuckingBulletSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RL/CatAI/DetectPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/AllowGameMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyMyself.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletTiming.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RL/Chair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/VGplayer/VgPlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/VGplayer/VgPlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings/GameOverCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/AttackOrder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -245,16 +328,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RL/Wires/WireHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BossIdle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RL/CatAI/ChewingWire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossBullet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/RLMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/CatAI/Idle.cs" />
-        <option value="$PROJECT_DIR$/Assets/RotateForever.cs" />
-        <option value="$PROJECT_DIR$/Assets/Chair1.cs" />
         <option value="$PROJECT_DIR$/Assets/Chair.cs" />
         <option value="$PROJECT_DIR$/Assets/ClickAndPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CatAI/PickUpDetection.cs" />
@@ -296,16 +376,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RL/CatAI/Idle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/DoAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/Charge.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BossIdle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FireAtPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/AttackOrder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FireAtPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/ChooseAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletTiming.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FuckingBulletSpawner.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -344,10 +428,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="9744">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9744" />
       <method v="2" />
     </configuration>
   </component>
@@ -367,12 +451,12 @@
       <workItem from="1600390171953" duration="35651000" />
       <workItem from="1600547023412" duration="13926000" />
       <workItem from="1600612023085" duration="17000" />
-      <workItem from="1600612245444" duration="25045000" />
+      <workItem from="1600612245444" duration="37747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88771000" />
+    <option name="totallyTimeSpent" value="101473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,7 +468,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2535771" />
@@ -396,7 +480,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39952904" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -433,27 +517,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/PickUpDetection.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClickAndPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <marker date="1600444445052" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600444445052" expanded="true" signature="122:802" ph="{...}" />
-            <marker date="1600444445052" expanded="true" signature="222:283" ph="{...}" />
-            <marker date="1600444445052" expanded="true" signature="336:543" ph="{...}" />
-            <marker date="1600444445052" expanded="true" signature="383:438" ph="{...}" />
-            <marker date="1600444445052" expanded="true" signature="478:533" ph="{...}" />
-            <marker date="1600444445052" expanded="true" signature="595:800" ph="{...}" />
-            <marker date="1600444445052" expanded="true" signature="642:698" ph="{...}" />
-            <marker date="1600444445052" expanded="true" signature="738:794" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RLplayer/RLMovement.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RLplayer/Movement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WireHealth.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/ChewWire.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CatAI/DetectOwner.cs" />
@@ -759,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/VGplayer/VgPlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <marker date="1600634589629" expanded="false" signature="6:78" ph="..." />
             <marker date="1600634589629" expanded="true" signature="125:683" ph="{...}" />
@@ -774,103 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/Bullet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <marker date="1600638064946" expanded="true" signature="6:78" ph="..." />
-            <marker date="1600638064946" expanded="true" signature="115:980" ph="{...}" />
-            <marker date="1600638064946" expanded="true" signature="360:475" ph="{...}" />
-            <marker date="1600638064946" expanded="true" signature="398:469" ph="{...}" />
-            <marker date="1600638064946" expanded="true" signature="503:632" ph="{...}" />
-            <marker date="1600638064946" expanded="true" signature="663:848" ph="{...}" />
-            <marker date="1600638064946" expanded="true" signature="797:842" ph="{...}" />
-            <marker date="1600638064946" expanded="true" signature="878:978" ph="{...}" />
-            <marker date="1600638064946" expanded="true" signature="902:972" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <marker date="1600647353332" expanded="false" signature="6:105" ph="..." />
-            <marker date="1600647353332" expanded="true" signature="154:159" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/Charge.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <marker date="1600647353368" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600647353368" expanded="true" signature="123:297" ph="{...}" />
-            <marker date="1600647353368" expanded="true" signature="195:216" ph="{...}" />
-            <marker date="1600647353368" expanded="true" signature="274:295" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RL/CatAI/Idle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="110" />
-          <folding>
-            <marker date="1600640069322" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600640069322" expanded="true" signature="80:301" ph="/* Move around in a random range on a random range time iteration ... */" />
-            <marker date="1600640069322" expanded="true" signature="343:3682" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="784:868" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="980:1360" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="1200:1354" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="1470:1552" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="1558:1700" ph="/* I probably could have made this more organized had I used static variables, but lack of time says it's too lat ... */" />
-            <marker date="1600640069322" expanded="true" signature="1748:2436" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="1960:2025" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="2486:3680" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="2817:3026" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="2927:3016" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="3066:3447" ph="{...}" />
-            <marker date="1600640069322" expanded="true" signature="3496:3674" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BossIdle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <marker date="1600648242586" expanded="true" signature="28:62" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FireAtPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <marker date="1600649086811" expanded="false" signature="6:103" ph="..." />
-            <marker date="1600649086811" expanded="true" signature="105:204" ph="/* Rotate towards the player and fire bullets at them every ## seconds. ... */" />
-            <marker date="1600649086811" expanded="true" signature="254:2497" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="521:816" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="928:1163" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="1019:1156" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="1273:1412" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="1463:2495" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="1683:1789" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="1823:2366" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="1874:2020" ph="{...}" />
-            <marker date="1600649086811" expanded="true" signature="2402:2489" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,36 +863,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BossIdle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding>
+            <marker date="1600651312555" expanded="true" signature="28:70" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/AttackOrder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="432">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <marker date="1600650675467" expanded="true" signature="20:162" ph="/* Array containing boss attack order gets shuffled then iterated through. Reshuffles upon array iteration comple ... */" />
-            <marker date="1600650675467" expanded="true" signature="203:1024" ph="{...}" />
-            <marker date="1600650675467" expanded="true" signature="250:431" ph="/* The origin of this was &quot;https://gist.github.com/polysmurf/7393396&quot; in 2019, but the link is dead unfortunately ... */" />
-            <marker date="1600650675467" expanded="true" signature="468:1021" ph="{...}" />
-            <marker date="1600650675467" expanded="true" signature="566:1015" ph="{...}" />
+            <marker date="1600652848251" expanded="true" signature="20:162" ph="/* Array containing boss attack order gets shuffled then iterated through. Reshuffles upon array iteration comple ... */" />
+            <marker date="1600652848251" expanded="true" signature="203:1023" ph="{...}" />
+            <marker date="1600652848251" expanded="true" signature="250:431" ph="/* The origin of this was &quot;https://gist.github.com/polysmurf/7393396&quot; in 2019, but the link is dead unfortunately ... */" />
+            <marker date="1600652848251" expanded="true" signature="468:1021" ph="{...}" />
+            <marker date="1600652848251" expanded="true" signature="566:1015" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Singleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <marker date="1600656872123" expanded="true" signature="0:72" ph="/* Not my code, obviously ... */" />
+            <marker date="1600656872123" expanded="true" signature="95:241" ph="/// Inherit from this base class to create a singleton. ... " />
+            <marker date="1600656872123" expanded="true" signature="307:1932" ph="{...}" />
+            <marker date="1600656872123" expanded="true" signature="498:588" ph="/// Access singleton instance through this propriety. ... " />
+            <marker date="1600656872123" expanded="true" signature="617:1770" ph="{...}" />
+            <marker date="1600656872123" expanded="true" signature="635:1764" ph="{...}" />
+            <marker date="1600656872123" expanded="true" signature="677:880" ph="{...}" />
+            <marker date="1600656872123" expanded="true" signature="962:1703" ph="{...}" />
+            <marker date="1600656872123" expanded="true" signature="1217:1685" ph="{...}" />
+            <marker date="1600656872123" expanded="true" signature="1811:1854" ph="{...}" />
+            <marker date="1600656872123" expanded="true" signature="1887:1930" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/Bullet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1600638064946" expanded="true" signature="6:78" ph="..." />
+            <marker date="1600638064946" expanded="true" signature="115:980" ph="{...}" />
+            <marker date="1600638064946" expanded="true" signature="360:475" ph="{...}" />
+            <marker date="1600638064946" expanded="true" signature="398:469" ph="{...}" />
+            <marker date="1600638064946" expanded="true" signature="503:632" ph="{...}" />
+            <marker date="1600638064946" expanded="true" signature="663:848" ph="{...}" />
+            <marker date="1600638064946" expanded="true" signature="797:842" ph="{...}" />
+            <marker date="1600638064946" expanded="true" signature="878:978" ph="{...}" />
+            <marker date="1600638064946" expanded="true" signature="902:972" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FireAtPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1600652848288" expanded="true" signature="6:78" ph="..." />
+            <marker date="1600652848288" expanded="true" signature="118:550" ph="{...}" />
+            <marker date="1600652848288" expanded="true" signature="263:340" ph="{...}" />
+            <marker date="1600652848288" expanded="true" signature="491:548" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/ChooseAttack.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="452">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding>
-            <marker date="1600650675503" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600650675503" expanded="true" signature="229:2117" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="561:803" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="822:853" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="893:1023" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="1057:1413" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="1101:1407" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="1440:1924" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="1604:1918" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="1752:1818" ph="{...}" />
-            <marker date="1600650675503" expanded="true" signature="1962:2115" ph="{...}" />
+            <marker date="1600659806636" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600659806636" expanded="true" signature="229:2068" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="561:803" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="822:853" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="893:1023" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="1057:1364" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="1101:1358" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="1391:1875" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="1555:1869" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="1703:1769" ph="{...}" />
+            <marker date="1600659806636" expanded="true" signature="1913:2066" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RL/CatAI/Idle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+          <folding>
+            <marker date="1600640069322" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600640069322" expanded="true" signature="80:301" ph="/* Move around in a random range on a random range time iteration ... */" />
+            <marker date="1600640069322" expanded="true" signature="343:3682" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="784:868" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="980:1360" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="1200:1354" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="1470:1552" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="1558:1700" ph="/* I probably could have made this more organized had I used static variables, but lack of time says it's too lat ... */" />
+            <marker date="1600640069322" expanded="true" signature="1748:2436" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="1960:2025" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="2486:3680" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="2817:3026" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="2927:3016" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="3066:3447" ph="{...}" />
+            <marker date="1600640069322" expanded="true" signature="3496:3674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletTiming.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <marker date="1600661411665" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600661411665" expanded="true" signature="121:1237" ph="{...}" />
+            <marker date="1600661411665" expanded="true" signature="395:550" ph="{...}" />
+            <marker date="1600661411665" expanded="true" signature="580:1091" ph="{...}" />
+            <marker date="1600661411665" expanded="true" signature="623:753" ph="{...}" />
+            <marker date="1600661411665" expanded="true" signature="1123:1235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/SpinAttack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1600655150490" expanded="false" signature="6:105" ph="..." />
+            <marker date="1600655150490" expanded="true" signature="143:781" ph="{...}" />
+            <marker date="1600655150490" expanded="true" signature="342:617" ph="{...}" />
+            <marker date="1600655150490" expanded="true" signature="719:779" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/Charge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1600647353368" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600647353368" expanded="true" signature="123:297" ph="{...}" />
+            <marker date="1600647353368" expanded="true" signature="195:216" ph="{...}" />
+            <marker date="1600647353368" expanded="true" signature="274:295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/BulletFire.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1600662222637" expanded="false" signature="6:127" ph="..." />
+            <marker date="1600662222637" expanded="true" signature="129:319" ph="/* Sets up BulletTiming.cs to be used in StateMachine while giving it public variables. ... */" />
+            <marker date="1600662222637" expanded="true" signature="368:1061" ph="{...}" />
+            <marker date="1600662222637" expanded="true" signature="596:775" ph="{...}" />
+            <marker date="1600662222637" expanded="true" signature="879:1059" ph="{...}" />
+            <marker date="1600662222637" expanded="true" signature="941:1053" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VG/BossAI/FuckingBulletSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <marker date="1600663706007" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600663706007" expanded="true" signature="129:1301" ph="{...}" />
+            <marker date="1600663706007" expanded="true" signature="343:397" ph="{...}" />
+            <marker date="1600663706007" expanded="true" signature="455:476" ph="{...}" />
+            <marker date="1600663706007" expanded="true" signature="510:1299" ph="{...}" />
+            <marker date="1600663706007" expanded="true" signature="707:838" ph="{...}" />
+            <marker date="1600663706007" expanded="true" signature="880:1010" ph="{...}" />
+            <marker date="1600663706007" expanded="true" signature="1032:1158" ph="{...}" />
           </folding>
         </state>
       </provider>

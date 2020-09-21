@@ -47,7 +47,6 @@ public class ChooseAttack : MonoBehaviour
             attackActivated = true;
             imDone = false;
             
-            stateMachine.SetBool("Idle", false);
             stateMachine.SetBool(animatorBoolNames[iterationNum], true);
             
             Debug.Log("Chosen bool: " + animatorBoolNames[iterationNum]);
