@@ -468,10 +468,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="1400" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -530,12 +529,12 @@
       <workItem from="1600390171953" duration="35651000" />
       <workItem from="1600547023412" duration="13926000" />
       <workItem from="1600612023085" duration="17000" />
-      <workItem from="1600612245444" duration="39809000" />
+      <workItem from="1600612245444" duration="40406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103535000" />
+    <option name="totallyTimeSpent" value="104132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +546,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
+    <frame x="0" y="0" width="1280" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2535771" />

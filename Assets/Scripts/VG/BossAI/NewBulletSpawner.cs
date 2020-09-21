@@ -9,10 +9,15 @@ public class NewBulletSpawner : MonoBehaviour
     public GameObject LargeBullet;
     
     private GameObject currentBullet;
+
+    private float wait = 1.4f;
+
+    private float wait2 = 1f;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnIteration());
+        StartCoroutine(IncreaseSpeed());
     }
 
     // Update is called once per frame
@@ -23,7 +28,7 @@ public class NewBulletSpawner : MonoBehaviour
 
     IEnumerator SpawnIteration()
     {
-        yield return new WaitForSecondsRealtime(Random.Range(1f, 1.4f));
+        yield return new WaitForSecondsRealtime(Random.Range(wait2, wait));
         var randomLargeBullet = Random.Range(0f, 1.4f);
         if (randomLargeBullet > 1 && randomLargeBullet < 1.3)
         {
@@ -44,5 +49,19 @@ public class NewBulletSpawner : MonoBehaviour
 
         currentBullet.transform.eulerAngles = new Vector3(0, 0, Random.Range(-359f, 359f));
         StartCoroutine(SpawnIteration());
+    }
+
+    IEnumerator IncreaseSpeed()
+    {
+        yield return new WaitForSecondsRealtime(8f);
+        {
+            if (wait >= 0.8f)
+            {
+                wait -= 0.1f;
+                wait2 -= 0.05f;
+            }
+            
+        }
+        StartCoroutine(IncreaseSpeed());
     }
 }
