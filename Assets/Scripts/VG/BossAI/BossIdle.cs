@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BossIdle : Idle
+﻿public class BossIdle : Idle
 {
-
+    // Well this went unused.
 }

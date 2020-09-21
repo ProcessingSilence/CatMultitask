@@ -29,7 +29,7 @@ MonoBehaviour:
   randomYRange: {x: 2, y: 3}
   idleMovementWaitRange: {x: 1, y: 2}
   stateTransitionWaitRange: {x: 0, y: 0}
-  _YieldThenNewPos_script: {fileID: 0}
+  YieldThenNewPos_script: {fileID: 0}
   _movement_script: {fileID: 0}
   infiniteIdle: 1
   nextBool: 
@@ -102,7 +102,7 @@ MonoBehaviour:
   randomYRange: {x: 2, y: 3}
   idleMovementWaitRange: {x: 1, y: 2}
   stateTransitionWaitRange: {x: 1, y: 10}
-  _YieldThenNewPos_script: {fileID: 0}
+  YieldThenNewPos_script: {fileID: 0}
   _movement_script: {fileID: 0}
   infiniteIdle: 0
   nextBool: movingToWire
