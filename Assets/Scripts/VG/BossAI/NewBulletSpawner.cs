@@ -28,7 +28,7 @@ public class NewBulletSpawner : MonoBehaviour
 
     IEnumerator SpawnIteration()
     {
-        yield return new WaitForSecondsRealtime(Random.Range(wait2, wait));
+        yield return new WaitForSecondsRealtime(Random.Range(1f, wait));
         var randomLargeBullet = Random.Range(0f, 1.4f);
         if (randomLargeBullet > 1 && randomLargeBullet < 1.3)
         {
@@ -56,10 +56,7 @@ public class NewBulletSpawner : MonoBehaviour
         yield return new WaitForSecondsRealtime(8f);
         {
             if (wait >= 0.8f)
-            {
-                wait -= 0.1f;
-                wait2 -= 0.05f;
-            }
+                wait -= 0.12f;
             
         }
         StartCoroutine(IncreaseSpeed());
